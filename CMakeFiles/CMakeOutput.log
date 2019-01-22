@@ -1,0 +1,2619 @@
+The system is: Linux - 4.14.34-hypriotos-v7+ - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/3.11.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/3.11.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97993/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97993.dir/build.make CMakeFiles/cmTC_97993.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97993.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_97993.dir/testCCompiler.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_97993
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97993.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_97993.dir/testCCompiler.c.o  -o cmTC_97993 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97b32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97b32.dir/build.make CMakeFiles/cmTC_97b32.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_97b32
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b32.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o  -o cmTC_97b32 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 6.3.0-18+rpi1+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97b32' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSo35tm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_97b32 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97b32' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_97b32/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_97b32.dir/build.make CMakeFiles/cmTC_97b32.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_97b32]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b32.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o  -o cmTC_97b32 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 6.3.0-18+rpi1+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97b32' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSo35tm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_97b32 /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccSo35tm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_97b32] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_97b32.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/6] ==> [/usr/lib/gcc/arm-linux-gnueabihf/6]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/6;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89b10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89b10.dir/build.make CMakeFiles/cmTC_89b10.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89b10.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_89b10.dir/feature_tests.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/feature_tests.c
+Linking C executable cmTC_89b10
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89b10.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_89b10.dir/feature_tests.c.o  -o cmTC_89b10 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1147/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1147.dir/build.make CMakeFiles/cmTC_d1147.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1147.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d1147.dir/feature_tests.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d1147
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1147.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d1147.dir/feature_tests.c.o  -o cmTC_d1147 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4334c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4334c.dir/build.make CMakeFiles/cmTC_4334c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4334c.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_4334c.dir/feature_tests.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4334c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4334c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4334c.dir/feature_tests.c.o  -o cmTC_4334c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91870/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91870.dir/build.make CMakeFiles/cmTC_91870.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91870.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_91870.dir/testCXXCompiler.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_91870
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91870.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_91870.dir/testCXXCompiler.cxx.o  -o cmTC_91870 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4deed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4deed.dir/build.make CMakeFiles/cmTC_4deed.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4deed
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4deed.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4deed 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 6.3.0-18+rpi1+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4deed' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp5OMhT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_4deed /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4deed' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4deed/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4deed.dir/build.make CMakeFiles/cmTC_4deed.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.11/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4deed]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4deed.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4deed ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 6.3.0-18+rpi1+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=arm-linux-gnueabihf- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Raspbian 6.3.0-18+rpi1+deb9u1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/6/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/6/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4deed' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/6/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp5OMhT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_4deed /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/6 -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/6/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccp5OMhT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4deed] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/6/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTC_4deed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/6] ==> [/usr/lib/gcc/arm-linux-gnueabihf/6]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/6/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/6;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58fca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58fca.dir/build.make CMakeFiles/cmTC_58fca.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58fca.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_58fca.dir/feature_tests.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_58fca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58fca.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_58fca.dir/feature_tests.cxx.o  -o cmTC_58fca 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a445/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a445.dir/build.make CMakeFiles/cmTC_3a445.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a445.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_3a445.dir/feature_tests.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3a445
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a445.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3a445.dir/feature_tests.cxx.o  -o cmTC_3a445 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_972e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_972e7.dir/build.make CMakeFiles/cmTC_972e7.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_972e7.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_972e7.dir/feature_tests.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_972e7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_972e7.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_972e7.dir/feature_tests.cxx.o  -o cmTC_972e7 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79bfc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79bfc.dir/build.make CMakeFiles/cmTC_79bfc.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79bfc.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_79bfc.dir/feature_tests.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_79bfc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79bfc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_79bfc.dir/feature_tests.cxx.o  -o cmTC_79bfc 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15177/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15177.dir/build.make CMakeFiles/cmTC_15177.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15177.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WALL   -Wall -o CMakeFiles/cmTC_15177.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_15177
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15177.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WALL    CMakeFiles/cmTC_15177.dir/src.c.o  -o cmTC_15177 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d50c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d50c.dir/build.make CMakeFiles/cmTC_7d50c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d50c.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT   -Wdeclaration-after-statement -o CMakeFiles/cmTC_7d50c.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7d50c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d50c.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT    CMakeFiles/cmTC_7d50c.dir/src.c.o  -o cmTC_7d50c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b63c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b63c.dir/build.make CMakeFiles/cmTC_3b63c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b63c.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT   -Werror=declaration-after-statement -o CMakeFiles/cmTC_3b63c.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3b63c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b63c.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT    CMakeFiles/cmTC_3b63c.dir/src.c.o  -o cmTC_3b63c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d81c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d81c4.dir/build.make CMakeFiles/cmTC_d81c4.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d81c4.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_ATOMICS   -o CMakeFiles/cmTC_d81c4.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d81c4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d81c4.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_ATOMICS    CMakeFiles/cmTC_d81c4.dir/src.c.o  -o cmTC_d81c4 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60bed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60bed.dir/build.make CMakeFiles/cmTC_60bed.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60bed.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror   -o CMakeFiles/cmTC_60bed.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_60bed
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bed.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror    CMakeFiles/cmTC_60bed.dir/src.c.o  -o cmTC_60bed 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error NJLIC only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9349d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9349d.dir/build.make CMakeFiles/cmTC_9349d.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9349d.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WSHADOW   -Wshadow -o CMakeFiles/cmTC_9349d.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9349d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9349d.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_GCC_WSHADOW    CMakeFiles/cmTC_9349d.dir/src.c.o  -o cmTC_9349d 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35441/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35441.dir/build.make CMakeFiles/cmTC_35441.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35441.dir/src.c.o
+/usr/bin/cc   -DHAVE_NO_UNDEFINED -Wl,--no-undefined   -o CMakeFiles/cmTC_35441.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_35441
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35441.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_NO_UNDEFINED -Wl,--no-undefined    CMakeFiles/cmTC_35441.dir/src.c.o  -o cmTC_35441 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d984/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d984.dir/build.make CMakeFiles/cmTC_3d984.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d984.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3d984.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3d984
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d984.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3d984.dir/CheckIncludeFile.c.o  -o cmTC_3d984 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0daa8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0daa8.dir/build.make CMakeFiles/cmTC_0daa8.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0daa8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0daa8.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0daa8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0daa8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0daa8.dir/CheckIncludeFile.c.o  -o cmTC_0daa8 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f08e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f08e1.dir/build.make CMakeFiles/cmTC_f08e1.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f08e1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f08e1.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f08e1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f08e1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f08e1.dir/CheckIncludeFile.c.o  -o cmTC_f08e1 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3edea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3edea.dir/build.make CMakeFiles/cmTC_3edea.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3edea.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3edea.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3edea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3edea.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3edea.dir/CheckIncludeFile.c.o  -o cmTC_3edea 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9255f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9255f.dir/build.make CMakeFiles/cmTC_9255f.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9255f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9255f.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9255f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9255f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9255f.dir/CheckIncludeFile.c.o  -o cmTC_9255f 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_786df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_786df.dir/build.make CMakeFiles/cmTC_786df.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_786df.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_786df.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_786df
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_786df.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_786df.dir/CheckIncludeFile.c.o  -o cmTC_786df 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71213/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71213.dir/build.make CMakeFiles/cmTC_71213.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71213.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_71213.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_71213
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71213.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_71213.dir/CheckIncludeFile.c.o  -o cmTC_71213 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11856/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11856.dir/build.make CMakeFiles/cmTC_11856.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11856.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_11856.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_11856
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11856.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_11856.dir/CheckIncludeFile.c.o  -o cmTC_11856 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b736/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b736.dir/build.make CMakeFiles/cmTC_7b736.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b736.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7b736.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7b736
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b736.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7b736.dir/CheckIncludeFile.c.o  -o cmTC_7b736 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64c97/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64c97.dir/build.make CMakeFiles/cmTC_64c97.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64c97.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_64c97.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_64c97
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64c97.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_64c97.dir/CheckIncludeFile.c.o  -o cmTC_64c97 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36c7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36c7f.dir/build.make CMakeFiles/cmTC_36c7f.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36c7f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_36c7f.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_36c7f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36c7f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_36c7f.dir/CheckIncludeFile.c.o  -o cmTC_36c7f 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_897cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_897cd.dir/build.make CMakeFiles/cmTC_897cd.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_897cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_897cd.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_897cd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_897cd.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_897cd.dir/CheckIncludeFile.c.o  -o cmTC_897cd 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cfd5a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cfd5a.dir/build.make CMakeFiles/cmTC_cfd5a.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfd5a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cfd5a.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cfd5a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfd5a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_cfd5a.dir/CheckIncludeFile.c.o  -o cmTC_cfd5a 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38a79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38a79.dir/build.make CMakeFiles/cmTC_38a79.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38a79.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_38a79.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_38a79
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38a79.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_38a79.dir/CheckIncludeFile.c.o  -o cmTC_38a79 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b985/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b985.dir/build.make CMakeFiles/cmTC_8b985.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b985.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8b985.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8b985
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b985.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8b985.dir/CheckIncludeFile.c.o  -o cmTC_8b985 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cc30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cc30.dir/build.make CMakeFiles/cmTC_3cc30.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3cc30.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3cc30.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3cc30
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cc30.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3cc30.dir/CheckIncludeFile.c.o  -o cmTC_3cc30 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a941b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a941b.dir/build.make CMakeFiles/cmTC_a941b.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a941b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a941b.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a941b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a941b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a941b.dir/CheckIncludeFile.c.o  -o cmTC_a941b 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f632/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f632.dir/build.make CMakeFiles/cmTC_1f632.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f632.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1f632.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1f632
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f632.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1f632.dir/CheckIncludeFile.c.o  -o cmTC_1f632 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4547f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4547f.dir/build.make CMakeFiles/cmTC_4547f.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4547f.dir/STDC_HEADERS.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4547f.dir/STDC_HEADERS.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_4547f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4547f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4547f.dir/STDC_HEADERS.c.o  -o cmTC_4547f 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_136d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_136d7.dir/build.make CMakeFiles/cmTC_136d7.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_136d7.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_136d7.dir/SIZEOF_SIZE_T.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_136d7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_136d7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_136d7.dir/SIZEOF_SIZE_T.c.o  -o cmTC_136d7 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28698/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28698.dir/build.make CMakeFiles/cmTC_28698.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28698.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_28698.dir/CheckSymbolExists.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_28698
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28698.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_28698.dir/CheckSymbolExists.c.o  -o cmTC_28698 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+File /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3c67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3c67.dir/build.make CMakeFiles/cmTC_c3c67.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3c67.dir/src.c.o
+/usr/bin/cc   -DHAVE_MPROTECT   -o CMakeFiles/cmTC_c3c67.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c3c67
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3c67.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_MPROTECT    CMakeFiles/cmTC_c3c67.dir/src.c.o  -o cmTC_c3c67 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_943b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_943b9.dir/build.make CMakeFiles/cmTC_943b9.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_943b9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtod   -o CMakeFiles/cmTC_943b9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_943b9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_943b9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtod    CMakeFiles/cmTC_943b9.dir/CheckFunctionExists.c.o  -o cmTC_943b9 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf39a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf39a.dir/build.make CMakeFiles/cmTC_bf39a.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf39a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_bf39a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_bf39a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf39a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTC_bf39a.dir/CheckFunctionExists.c.o  -o cmTC_bf39a 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ccb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ccb4.dir/build.make CMakeFiles/cmTC_5ccb4.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ccb4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTC_5ccb4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘calloc’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5ccb4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ccb4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=calloc    CMakeFiles/cmTC_5ccb4.dir/CheckFunctionExists.c.o  -o cmTC_5ccb4 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4404/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4404.dir/build.make CMakeFiles/cmTC_a4404.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4404.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTC_a4404.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘realloc’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a4404
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4404.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=realloc    CMakeFiles/cmTC_a4404.dir/CheckFunctionExists.c.o  -o cmTC_a4404 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b13be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b13be.dir/build.make CMakeFiles/cmTC_b13be.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b13be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTC_b13be.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘free’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b13be
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b13be.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=free    CMakeFiles/cmTC_b13be.dir/CheckFunctionExists.c.o  -o cmTC_b13be 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15682/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15682.dir/build.make CMakeFiles/cmTC_15682.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15682.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTC_15682.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_15682
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15682.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getenv    CMakeFiles/cmTC_15682.dir/CheckFunctionExists.c.o  -o cmTC_15682 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8f12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8f12.dir/build.make CMakeFiles/cmTC_b8f12.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8f12.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTC_b8f12.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8f12
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8f12.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setenv    CMakeFiles/cmTC_b8f12.dir/CheckFunctionExists.c.o  -o cmTC_b8f12 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2708c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2708c.dir/build.make CMakeFiles/cmTC_2708c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2708c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTC_2708c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2708c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2708c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=putenv    CMakeFiles/cmTC_2708c.dir/CheckFunctionExists.c.o  -o cmTC_2708c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_134ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_134ac.dir/build.make CMakeFiles/cmTC_134ac.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_134ac.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles/cmTC_134ac.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_134ac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_134ac.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=unsetenv    CMakeFiles/cmTC_134ac.dir/CheckFunctionExists.c.o  -o cmTC_134ac 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ce5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ce5b.dir/build.make CMakeFiles/cmTC_0ce5b.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ce5b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=qsort   -o CMakeFiles/cmTC_0ce5b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ce5b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ce5b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=qsort    CMakeFiles/cmTC_0ce5b.dir/CheckFunctionExists.c.o  -o cmTC_0ce5b 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1dc0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1dc0.dir/build.make CMakeFiles/cmTC_d1dc0.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1dc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=abs   -o CMakeFiles/cmTC_d1dc0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘abs’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d1dc0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1dc0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=abs    CMakeFiles/cmTC_d1dc0.dir/CheckFunctionExists.c.o  -o cmTC_d1dc0 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0235a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0235a.dir/build.make CMakeFiles/cmTC_0235a.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0235a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=bcopy   -o CMakeFiles/cmTC_0235a.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘bcopy’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_0235a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0235a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=bcopy    CMakeFiles/cmTC_0235a.dir/CheckFunctionExists.c.o  -o cmTC_0235a 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10a27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10a27.dir/build.make CMakeFiles/cmTC_10a27.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10a27.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_10a27.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_10a27
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10a27.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTC_10a27.dir/CheckFunctionExists.c.o  -o cmTC_10a27 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4636/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4636.dir/build.make CMakeFiles/cmTC_e4636.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4636.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_e4636.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e4636
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4636.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memcpy    CMakeFiles/cmTC_e4636.dir/CheckFunctionExists.c.o  -o cmTC_e4636 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b57f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b57f.dir/build.make CMakeFiles/cmTC_7b57f.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b57f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_7b57f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_7b57f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b57f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memmove    CMakeFiles/cmTC_7b57f.dir/CheckFunctionExists.c.o  -o cmTC_7b57f 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28420/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28420.dir/build.make CMakeFiles/cmTC_28420.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28420.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTC_28420.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcmp’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_28420
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28420.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memcmp    CMakeFiles/cmTC_28420.dir/CheckFunctionExists.c.o  -o cmTC_28420 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9361b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9361b.dir/build.make CMakeFiles/cmTC_9361b.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9361b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlen   -o CMakeFiles/cmTC_9361b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strlen’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_9361b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9361b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlen    CMakeFiles/cmTC_9361b.dir/CheckFunctionExists.c.o  -o cmTC_9361b 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e59ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e59ee.dir/build.make CMakeFiles/cmTC_e59ee.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e59ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_e59ee.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e59ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e59ee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strchr    CMakeFiles/cmTC_e59ee.dir/CheckFunctionExists.c.o  -o cmTC_e59ee 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc567/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc567.dir/build.make CMakeFiles/cmTC_dc567.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc567.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_dc567.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_dc567
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc567.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strrchr    CMakeFiles/cmTC_dc567.dir/CheckFunctionExists.c.o  -o cmTC_dc567 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6191/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6191.dir/build.make CMakeFiles/cmTC_f6191.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6191.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_f6191.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_f6191
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6191.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strstr    CMakeFiles/cmTC_f6191.dir/CheckFunctionExists.c.o  -o cmTC_f6191 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a2d3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a2d3c.dir/build.make CMakeFiles/cmTC_a2d3c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2d3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTC_a2d3c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a2d3c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2d3c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtol    CMakeFiles/cmTC_a2d3c.dir/CheckFunctionExists.c.o  -o cmTC_a2d3c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2dc0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dc0d.dir/build.make CMakeFiles/cmTC_2dc0d.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dc0d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTC_2dc0d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2dc0d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dc0d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoul    CMakeFiles/cmTC_2dc0d.dir/CheckFunctionExists.c.o  -o cmTC_2dc0d 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7e6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7e6d.dir/build.make CMakeFiles/cmTC_a7e6d.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7e6d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTC_a7e6d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a7e6d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7e6d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTC_a7e6d.dir/CheckFunctionExists.c.o  -o cmTC_a7e6d 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c5b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c5b4.dir/build.make CMakeFiles/cmTC_9c5b4.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c5b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_9c5b4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9c5b4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c5b4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTC_9c5b4.dir/CheckFunctionExists.c.o  -o cmTC_9c5b4 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f8dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f8dc.dir/build.make CMakeFiles/cmTC_6f8dc.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f8dc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atoi   -o CMakeFiles/cmTC_6f8dc.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f8dc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f8dc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=atoi    CMakeFiles/cmTC_6f8dc.dir/CheckFunctionExists.c.o  -o cmTC_6f8dc 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8294/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8294.dir/build.make CMakeFiles/cmTC_f8294.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8294.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atof   -o CMakeFiles/cmTC_f8294.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8294
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8294.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=atof    CMakeFiles/cmTC_f8294.dir/CheckFunctionExists.c.o  -o cmTC_f8294 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3dacf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3dacf.dir/build.make CMakeFiles/cmTC_3dacf.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3dacf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTC_3dacf.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcmp’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_3dacf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dacf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcmp    CMakeFiles/cmTC_3dacf.dir/CheckFunctionExists.c.o  -o cmTC_3dacf 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca570/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca570.dir/build.make CMakeFiles/cmTC_ca570.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca570.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncmp   -o CMakeFiles/cmTC_ca570.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strncmp’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_ca570
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca570.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strncmp    CMakeFiles/cmTC_ca570.dir/CheckFunctionExists.c.o  -o cmTC_ca570 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6051c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6051c.dir/build.make CMakeFiles/cmTC_6051c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6051c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_6051c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_6051c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6051c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp    CMakeFiles/cmTC_6051c.dir/CheckFunctionExists.c.o  -o cmTC_6051c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_494fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_494fe.dir/build.make CMakeFiles/cmTC_494fe.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_494fe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTC_494fe.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strncasecmp’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_494fe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_494fe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strncasecmp    CMakeFiles/cmTC_494fe.dir/CheckFunctionExists.c.o  -o cmTC_494fe 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9f42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9f42.dir/build.make CMakeFiles/cmTC_b9f42.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9f42.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsscanf   -o CMakeFiles/cmTC_b9f42.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsscanf’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b9f42
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9f42.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsscanf    CMakeFiles/cmTC_b9f42.dir/CheckFunctionExists.c.o  -o cmTC_b9f42 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82326/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82326.dir/build.make CMakeFiles/cmTC_82326.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82326.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_82326.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_82326
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82326.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTC_82326.dir/CheckFunctionExists.c.o  -o cmTC_82326 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fopen64 exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7b78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7b78.dir/build.make CMakeFiles/cmTC_c7b78.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7b78.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fopen64   -o CMakeFiles/cmTC_c7b78.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7b78
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7b78.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fopen64    CMakeFiles/cmTC_c7b78.dir/CheckFunctionExists.c.o  -o cmTC_c7b78 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3634/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3634.dir/build.make CMakeFiles/cmTC_f3634.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3634.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_f3634.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3634
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3634.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTC_f3634.dir/CheckFunctionExists.c.o  -o cmTC_f3634 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko64 exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8437/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8437.dir/build.make CMakeFiles/cmTC_f8437.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8437.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko64   -o CMakeFiles/cmTC_f8437.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8437
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8437.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko64    CMakeFiles/cmTC_f8437.dir/CheckFunctionExists.c.o  -o cmTC_f8437 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1226/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1226.dir/build.make CMakeFiles/cmTC_b1226.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1226.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_b1226.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1226
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1226.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sigaction    CMakeFiles/cmTC_b1226.dir/CheckFunctionExists.c.o  -o cmTC_b1226 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31cbe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31cbe.dir/build.make CMakeFiles/cmTC_31cbe.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31cbe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_31cbe.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_31cbe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31cbe.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setjmp    CMakeFiles/cmTC_31cbe.dir/CheckFunctionExists.c.o  -o cmTC_31cbe 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee4cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee4cd.dir/build.make CMakeFiles/cmTC_ee4cd.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee4cd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTC_ee4cd.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee4cd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee4cd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTC_ee4cd.dir/CheckFunctionExists.c.o  -o cmTC_ee4cd 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd2fc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd2fc.dir/build.make CMakeFiles/cmTC_bd2fc.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd2fc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTC_bd2fc.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bd2fc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd2fc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sysconf    CMakeFiles/cmTC_bd2fc.dir/CheckFunctionExists.c.o  -o cmTC_bd2fc 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getauxval exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6749e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6749e.dir/build.make CMakeFiles/cmTC_6749e.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6749e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getauxval   -o CMakeFiles/cmTC_6749e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6749e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6749e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=getauxval    CMakeFiles/cmTC_6749e.dir/CheckFunctionExists.c.o  -o cmTC_6749e 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98a8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98a8c.dir/build.make CMakeFiles/cmTC_98a8c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98a8c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_98a8c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98a8c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a8c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTC_98a8c.dir/CheckFunctionExists.c.o  -o cmTC_98a8c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf294/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf294.dir/build.make CMakeFiles/cmTC_bf294.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf294.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_bf294.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_bf294
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf294.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow    CMakeFiles/cmTC_bf294.dir/CheckFunctionExists.c.o  -o cmTC_bf294 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4243c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4243c.dir/build.make CMakeFiles/cmTC_4243c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4243c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atan   -o CMakeFiles/cmTC_4243c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘atan’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4243c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4243c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=atan    CMakeFiles/cmTC_4243c.dir/CheckFunctionExists.c.o  -o cmTC_4243c -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65279/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65279.dir/build.make CMakeFiles/cmTC_65279.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65279.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTC_65279.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘atan2’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_65279
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65279.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=atan2    CMakeFiles/cmTC_65279.dir/CheckFunctionExists.c.o  -o cmTC_65279 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0618b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0618b.dir/build.make CMakeFiles/cmTC_0618b.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0618b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTC_0618b.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘ceil’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_0618b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0618b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ceil    CMakeFiles/cmTC_0618b.dir/CheckFunctionExists.c.o  -o cmTC_0618b -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f719/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f719.dir/build.make CMakeFiles/cmTC_5f719.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f719.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTC_5f719.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘copysign’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_5f719
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f719.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=copysign    CMakeFiles/cmTC_5f719.dir/CheckFunctionExists.c.o  -o cmTC_5f719 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_736e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_736e2.dir/build.make CMakeFiles/cmTC_736e2.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_736e2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cos   -o CMakeFiles/cmTC_736e2.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘cos’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_736e2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_736e2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cos    CMakeFiles/cmTC_736e2.dir/CheckFunctionExists.c.o  -o cmTC_736e2 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2df8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2df8d.dir/build.make CMakeFiles/cmTC_2df8d.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2df8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cosf   -o CMakeFiles/cmTC_2df8d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘cosf’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_2df8d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df8d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cosf    CMakeFiles/cmTC_2df8d.dir/CheckFunctionExists.c.o  -o cmTC_2df8d -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba3c0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba3c0.dir/build.make CMakeFiles/cmTC_ba3c0.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba3c0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fabs   -o CMakeFiles/cmTC_ba3c0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fabs’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_ba3c0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba3c0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fabs    CMakeFiles/cmTC_ba3c0.dir/CheckFunctionExists.c.o  -o cmTC_ba3c0 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65177/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65177.dir/build.make CMakeFiles/cmTC_65177.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65177.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_65177.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_65177
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65177.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTC_65177.dir/CheckFunctionExists.c.o  -o cmTC_65177 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8ac9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8ac9.dir/build.make CMakeFiles/cmTC_e8ac9.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8ac9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_e8ac9.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘log’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e8ac9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8ac9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=log    CMakeFiles/cmTC_e8ac9.dir/CheckFunctionExists.c.o  -o cmTC_e8ac9 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9e86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9e86.dir/build.make CMakeFiles/cmTC_b9e86.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9e86.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_b9e86.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_b9e86
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9e86.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow    CMakeFiles/cmTC_b9e86.dir/CheckFunctionExists.c.o  -o cmTC_b9e86 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_caad2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_caad2.dir/build.make CMakeFiles/cmTC_caad2.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_caad2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scalbn   -o CMakeFiles/cmTC_caad2.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘scalbn’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_caad2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_caad2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=scalbn    CMakeFiles/cmTC_caad2.dir/CheckFunctionExists.c.o  -o cmTC_caad2 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_278b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_278b1.dir/build.make CMakeFiles/cmTC_278b1.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_278b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sin   -o CMakeFiles/cmTC_278b1.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sin’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_278b1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_278b1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sin    CMakeFiles/cmTC_278b1.dir/CheckFunctionExists.c.o  -o cmTC_278b1 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7fb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7fb8.dir/build.make CMakeFiles/cmTC_a7fb8.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7fb8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sinf   -o CMakeFiles/cmTC_a7fb8.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sinf’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a7fb8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7fb8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sinf    CMakeFiles/cmTC_a7fb8.dir/CheckFunctionExists.c.o  -o cmTC_a7fb8 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d535d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d535d.dir/build.make CMakeFiles/cmTC_d535d.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d535d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTC_d535d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d535d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d535d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrt    CMakeFiles/cmTC_d535d.dir/CheckFunctionExists.c.o  -o cmTC_d535d -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7be65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7be65.dir/build.make CMakeFiles/cmTC_7be65.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7be65.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqrtf   -o CMakeFiles/cmTC_7be65.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrtf’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_7be65
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7be65.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqrtf    CMakeFiles/cmTC_7be65.dir/CheckFunctionExists.c.o  -o cmTC_7be65 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9c63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a9c63.dir/build.make CMakeFiles/cmTC_a9c63.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9c63.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tan   -o CMakeFiles/cmTC_a9c63.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘tan’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a9c63
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9c63.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=tan    CMakeFiles/cmTC_a9c63.dir/CheckFunctionExists.c.o  -o cmTC_a9c63 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48346/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48346.dir/build.make CMakeFiles/cmTC_48346.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48346.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tanf   -o CMakeFiles/cmTC_48346.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘tanf’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_48346
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48346.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=tanf    CMakeFiles/cmTC_48346.dir/CheckFunctionExists.c.o  -o cmTC_48346 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1cc21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1cc21.dir/build.make CMakeFiles/cmTC_1cc21.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cc21.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=acos   -o CMakeFiles/cmTC_1cc21.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘acos’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_1cc21
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cc21.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=acos    CMakeFiles/cmTC_1cc21.dir/CheckFunctionExists.c.o  -o cmTC_1cc21 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d22f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d22f8.dir/build.make CMakeFiles/cmTC_d22f8.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d22f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=asin   -o CMakeFiles/cmTC_d22f8.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘asin’
+/usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d22f8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d22f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=asin    CMakeFiles/cmTC_d22f8.dir/CheckFunctionExists.c.o  -o cmTC_d22f8 -lm 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71e4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71e4c.dir/build.make CMakeFiles/cmTC_71e4c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71e4c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_71e4c.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_71e4c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71e4c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_71e4c.dir/CheckIncludeFile.c.o  -o cmTC_71e4c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ebbc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ebbc.dir/build.make CMakeFiles/cmTC_9ebbc.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ebbc.dir/src.c.o
+/usr/bin/cc   -DHAVE_SA_SIGACTION   -o CMakeFiles/cmTC_9ebbc.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9ebbc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ebbc.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SA_SIGACTION    CMakeFiles/cmTC_9ebbc.dir/src.c.o  -o cmTC_9ebbc 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
+Performing C SOURCE FILE Test OSS_FOUND succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f9e5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9e5b.dir/build.make CMakeFiles/cmTC_f9e5b.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9e5b.dir/src.c.o
+/usr/bin/cc   -DOSS_FOUND   -o CMakeFiles/cmTC_f9e5b.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f9e5b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9e5b.dir/link.txt --verbose=1
+/usr/bin/cc  -DOSS_FOUND    CMakeFiles/cmTC_f9e5b.dir/src.c.o  -o cmTC_f9e5b 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <sys/soundcard.h>
+        int main() { int arg = SNDCTL_DSP_SETFRAGMENT; }
+Determining if the include file alsa/asoundlib.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e0ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e0ba.dir/build.make CMakeFiles/cmTC_6e0ba.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e0ba.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6e0ba.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6e0ba
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e0ba.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6e0ba.dir/CheckIncludeFile.c.o  -o cmTC_6e0ba 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snd_pcm_recover exists in the asound passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65aeb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65aeb.dir/build.make CMakeFiles/cmTC_65aeb.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65aeb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snd_pcm_recover   -o CMakeFiles/cmTC_65aeb.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_65aeb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65aeb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snd_pcm_recover    CMakeFiles/cmTC_65aeb.dir/CheckFunctionExists.c.o  -o cmTC_65aeb -lasound 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sndio.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba697/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba697.dir/build.make CMakeFiles/cmTC_ba697.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba697.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ba697.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ba697
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba697.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ba697.dir/CheckIncludeFile.c.o  -o cmTC_ba697 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/Xcursor/Xcursor.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cccc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cccc.dir/build.make CMakeFiles/cmTC_3cccc.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3cccc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3cccc.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3cccc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cccc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3cccc.dir/CheckIncludeFile.c.o  -o cmTC_3cccc 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xinerama.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03fb2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03fb2.dir/build.make CMakeFiles/cmTC_03fb2.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03fb2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_03fb2.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_03fb2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03fb2.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_03fb2.dir/CheckIncludeFile.c.o  -o cmTC_03fb2 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/XInput2.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82b80/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82b80.dir/build.make CMakeFiles/cmTC_82b80.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82b80.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_82b80.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82b80
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82b80.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_82b80.dir/CheckIncludeFile.c.o  -o cmTC_82b80 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xrandr.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c727e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c727e.dir/build.make CMakeFiles/cmTC_c727e.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c727e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c727e.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c727e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c727e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c727e.dir/CheckIncludeFile.c.o  -o cmTC_c727e 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xrender.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9c03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e9c03.dir/build.make CMakeFiles/cmTC_e9c03.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9c03.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e9c03.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e9c03
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9c03.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e9c03.dir/CheckIncludeFile.c.o  -o cmTC_e9c03 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/scrnsaver.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_780ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_780ff.dir/build.make CMakeFiles/cmTC_780ff.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_780ff.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_780ff.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_780ff
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_780ff.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_780ff.dir/CheckIncludeFile.c.o  -o cmTC_780ff 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/shape.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abea9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abea9.dir/build.make CMakeFiles/cmTC_abea9.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abea9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_abea9.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_abea9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abea9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_abea9.dir/CheckIncludeFile.c.o  -o cmTC_abea9 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if files X11/Xlib.h;X11/extensions/xf86vmode.h exist passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee007/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee007.dir/build.make CMakeFiles/cmTC_ee007.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee007.dir/HAVE_XF86VM_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ee007.dir/HAVE_XF86VM_H.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CheckIncludeFiles/HAVE_XF86VM_H.c
+Linking C executable cmTC_ee007
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee007.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ee007.dir/HAVE_XF86VM_H.c.o  -o cmTC_ee007 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if files X11/Xlib.h;X11/Xproto.h;X11/extensions/Xext.h exist passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_762ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_762ee.dir/build.make CMakeFiles/cmTC_762ee.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_762ee.dir/HAVE_XEXT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_762ee.dir/HAVE_XEXT_H.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CheckIncludeFiles/HAVE_XEXT_H.c
+Linking C executable cmTC_762ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_762ee.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_762ee.dir/HAVE_XEXT_H.c.o  -o cmTC_762ee 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16784/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16784.dir/build.make CMakeFiles/cmTC_16784.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16784.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_16784.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_16784
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16784.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_16784.dir/CheckFunctionExists.c.o  -o cmTC_16784 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_CONST_XEXT_ADDDISPLAY succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f65f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9f65f.dir/build.make CMakeFiles/cmTC_9f65f.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f65f.dir/src.c.o
+/usr/bin/cc   -DHAVE_CONST_XEXT_ADDDISPLAY   -o CMakeFiles/cmTC_9f65f.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9f65f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f65f.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_CONST_XEXT_ADDDISPLAY    CMakeFiles/cmTC_9f65f.dir/src.c.o  -o cmTC_9f65f /usr/lib/arm-linux-gnueabihf/libX11.so /usr/lib/arm-linux-gnueabihf/libX11.so 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          #include <X11/Xproto.h>
+          #include <X11/extensions/Xext.h>
+          #include <X11/extensions/extutil.h>
+          extern XExtDisplayInfo* XextAddDisplay(XExtensionInfo* a,Display* b,_Xconst char* c,XExtensionHooks* d,int e,XPointer f);
+          int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_XGENERICEVENT succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c29f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c29f9.dir/build.make CMakeFiles/cmTC_c29f9.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c29f9.dir/src.c.o
+/usr/bin/cc   -DHAVE_XGENERICEVENT   -o CMakeFiles/cmTC_c29f9.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c29f9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c29f9.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_XGENERICEVENT    CMakeFiles/cmTC_c29f9.dir/src.c.o  -o cmTC_c29f9 /usr/lib/arm-linux-gnueabihf/libX11.so /usr/lib/arm-linux-gnueabihf/libX11.so 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          int main(int argc, char **argv) {
+            Display *display;
+            XEvent event;
+            XGenericEventCookie *cookie = &event.xcookie;
+            XNextEvent(display, &event);
+            XGetEventData(display, cookie);
+            XFreeEventData(display, cookie); }
+Determining if the function XkbKeycodeToKeysym exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2160f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2160f.dir/build.make CMakeFiles/cmTC_2160f.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2160f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XkbKeycodeToKeysym   -o CMakeFiles/cmTC_2160f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2160f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2160f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XkbKeycodeToKeysym    CMakeFiles/cmTC_2160f.dir/CheckFunctionExists.c.o  -o cmTC_2160f /usr/lib/arm-linux-gnueabihf/libX11.so /usr/lib/arm-linux-gnueabihf/libX11.so 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_XINPUT2_MULTITOUCH succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8053/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8053.dir/build.make CMakeFiles/cmTC_c8053.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8053.dir/src.c.o
+/usr/bin/cc   -DHAVE_XINPUT2_MULTITOUCH   -o CMakeFiles/cmTC_c8053.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c8053
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8053.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_XINPUT2_MULTITOUCH    CMakeFiles/cmTC_c8053.dir/src.c.o  -o cmTC_c8053 /usr/lib/arm-linux-gnueabihf/libX11.so /usr/lib/arm-linux-gnueabihf/libX11.so 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+            #include <X11/Xlib.h>
+            #include <X11/Xproto.h>
+            #include <X11/extensions/XInput2.h>
+            int event_type = XI_TouchBegin;
+            XITouchClassInfo *t;
+            Status XIAllowTouchEvents(Display *a,int b,unsigned int c,Window d,int f)
+            {
+              return (Status)0;
+            }
+            int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3f7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3f7a.dir/build.make CMakeFiles/cmTC_d3f7a.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3f7a.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGL   -o CMakeFiles/cmTC_d3f7a.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d3f7a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3f7a.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_VIDEO_OPENGL    CMakeFiles/cmTC_d3f7a.dir/src.c.o  -o cmTC_d3f7a 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <GL/gl.h>
+        #include <GL/glx.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL_EGL succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd0a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd0a4.dir/build.make CMakeFiles/cmTC_bd0a4.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd0a4.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGL_EGL   -o CMakeFiles/cmTC_bd0a4.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bd0a4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd0a4.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_VIDEO_OPENGL_EGL    CMakeFiles/cmTC_bd0a4.dir/src.c.o  -o cmTC_bd0a4 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #define EGL_API_FB
+        #include <EGL/egl.h>
+        int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES_V2 succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a1e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a1e9.dir/build.make CMakeFiles/cmTC_9a1e9.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a1e9.dir/src.c.o
+/usr/bin/cc   -DHAVE_VIDEO_OPENGLES_V2   -o CMakeFiles/cmTC_9a1e9.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9a1e9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a1e9.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_VIDEO_OPENGLES_V2    CMakeFiles/cmTC_9a1e9.dir/src.c.o  -o cmTC_9a1e9 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+      #include <GLES2/gl2.h>
+      #include <GLES2/gl2ext.h>
+      int main (int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_INPUT_EVENTS succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0436/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0436.dir/build.make CMakeFiles/cmTC_f0436.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0436.dir/src.c.o
+/usr/bin/cc   -DHAVE_INPUT_EVENTS   -o CMakeFiles/cmTC_f0436.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f0436
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0436.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_INPUT_EVENTS    CMakeFiles/cmTC_f0436.dir/src.c.o  -o cmTC_f0436 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <linux/input.h>
+        #ifndef EVIOCGNAME
+        #error EVIOCGNAME() ioctl not available
+        #endif
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_INPUT_KD succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eadb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eadb8.dir/build.make CMakeFiles/cmTC_eadb8.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eadb8.dir/src.c.o
+/usr/bin/cc   -DHAVE_INPUT_KD   -o CMakeFiles/cmTC_eadb8.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c:9:13: warning: implicit declaration of function ‘ioctl’ [-Wimplicit-function-declaration]
+             ioctl(0, KDGKBENT, &kbe);
+             ^~~~~
+Linking C executable cmTC_eadb8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eadb8.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_INPUT_KD    CMakeFiles/cmTC_eadb8.dir/src.c.o  -o cmTC_eadb8 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <linux/kd.h>
+        #include <linux/keyboard.h>
+
+        int main(int argc, char **argv) 
+        {
+            struct kbentry kbe;
+            kbe.kb_table = KG_CTRL;
+            ioctl(0, KDGKBENT, &kbe);
+        }
+Determining if the include file libudev.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7af3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7af3.dir/build.make CMakeFiles/cmTC_c7af3.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7af3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c7af3.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c7af3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7af3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c7af3.dir/CheckIncludeFile.c.o  -o cmTC_c7af3 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7da7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7da7.dir/build.make CMakeFiles/cmTC_f7da7.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7da7.dir/src.c.o
+/usr/bin/cc   -DHAVE_PTHREADS   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_f7da7.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f7da7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7da7.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_PTHREADS   -D_REENTRANT -pthread    CMakeFiles/cmTC_f7da7.dir/src.c.o  -o cmTC_f7da7 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15271/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15271.dir/build.make CMakeFiles/cmTC_15271.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15271.dir/src.c.o
+/usr/bin/cc   -DHAVE_RECURSIVE_MUTEXES   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_15271.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_15271
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15271.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_RECURSIVE_MUTEXES   -D_REENTRANT -pthread    CMakeFiles/cmTC_15271.dir/src.c.o  -o cmTC_15271 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67f4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67f4c.dir/build.make CMakeFiles/cmTC_67f4c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67f4c.dir/src.c.o
+/usr/bin/cc   -DHAVE_PTHREADS_SEM   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_67f4c.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_67f4c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67f4c.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_PTHREADS_SEM   -D_REENTRANT -pthread    CMakeFiles/cmTC_67f4c.dir/src.c.o  -o cmTC_67f4c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0056e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0056e.dir/build.make CMakeFiles/cmTC_0056e.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0056e.dir/src.c.o
+/usr/bin/cc   -DHAVE_SEM_TIMEDWAIT   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_0056e.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0056e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0056e.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_SEM_TIMEDWAIT   -D_REENTRANT -pthread    CMakeFiles/cmTC_0056e.dir/src.c.o  -o cmTC_0056e 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22bc5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22bc5.dir/build.make CMakeFiles/cmTC_22bc5.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22bc5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_setname_np   -D_REENTRANT -pthread   -o CMakeFiles/cmTC_22bc5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_22bc5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22bc5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_setname_np   -D_REENTRANT -pthread    CMakeFiles/cmTC_22bc5.dir/CheckFunctionExists.c.o  -o cmTC_22bc5 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/version.h exists passed with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf54c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf54c.dir/build.make CMakeFiles/cmTC_bf54c.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf54c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf54c.dir/CheckIncludeFile.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bf54c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf54c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bf54c.dir/CheckIncludeFile.c.o  -o cmTC_bf54c 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_ENABLE_NEW_DTAGS succeeded with the following output:
+Change Dir: /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b2ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b2ac.dir/build.make CMakeFiles/cmTC_4b2ac.dir/build
+make[1]: Entering directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b2ac.dir/src.c.o
+/usr/bin/cc   -DHAVE_LINUX_VERSION_H -DHAVE_ENABLE_NEW_DTAGS -Wl,--enable-new-dtags   -o CMakeFiles/cmTC_4b2ac.dir/src.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4b2ac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b2ac.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_LINUX_VERSION_H -DHAVE_ENABLE_NEW_DTAGS -Wl,--enable-new-dtags    CMakeFiles/cmTC_4b2ac.dir/src.c.o  -o cmTC_4b2ac 
+make[1]: Leaving directory '/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
