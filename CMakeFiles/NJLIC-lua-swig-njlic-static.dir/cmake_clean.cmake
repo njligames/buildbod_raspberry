@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o"
+  "CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o"
   "libNJLIC-lua-swig-njlic-staticd.pdb"
   "libNJLIC-lua-swig-njlic-staticd.a"
 )

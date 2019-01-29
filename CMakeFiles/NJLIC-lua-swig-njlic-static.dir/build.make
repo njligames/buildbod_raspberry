@@ -57,27 +57,27 @@ include CMakeFiles/NJLIC-lua-swig-njlic-static.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NJLIC-lua-swig-njlic-static.dir/flags.make
 
-CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: CMakeFiles/NJLIC-lua-swig-njlic-static.dir/flags.make
-CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o: njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx
+CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o: CMakeFiles/NJLIC-lua-swig-njlic-static.dir/flags.make
+CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o: njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx
 
-CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx > CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.i
+CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx > CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.i
 
-CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx -o CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.s
+CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx -o CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.s
 
 # Object files for target NJLIC-lua-swig-njlic-static
 NJLIC__lua__swig__njlic__static_OBJECTS = \
-"CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o"
+"CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o"
 
 # External object files for target NJLIC-lua-swig-njlic-static
 NJLIC__lua__swig__njlic__static_EXTERNAL_OBJECTS =
 
-libNJLIC-lua-swig-njlic-staticd.a: CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o
+libNJLIC-lua-swig-njlic-staticd.a: CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o
 libNJLIC-lua-swig-njlic-staticd.a: CMakeFiles/NJLIC-lua-swig-njlic-static.dir/build.make
 libNJLIC-lua-swig-njlic-staticd.a: CMakeFiles/NJLIC-lua-swig-njlic-static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libNJLIC-lua-swig-njlic-staticd.a"

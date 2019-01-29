@@ -2709,9 +2709,22 @@ CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehavio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp -o CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.s
 
+CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o: CMakeFiles/lua.dir/flags.make
+CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o: njligames-njlic_engine/njli/steering/support/Path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building CXX object CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/njli/steering/support/Path.cpp
+
+CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/njli/steering/support/Path.cpp > CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.i
+
+CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/njli/steering/support/Path.cpp -o CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.s
+
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.o: njligames-njlic_engine/lua/src/lapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lapi.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.i: cmake_force
@@ -2724,7 +2737,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.o: njligames-njlic_engine/lua/src/lauxlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lauxlib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.i: cmake_force
@@ -2737,7 +2750,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.o: njligames-njlic_engine/lua/src/lbaselib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lbaselib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.i: cmake_force
@@ -2750,7 +2763,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbitlib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbitlib.c.o: njligames-njlic_engine/lua/src/lbitlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbitlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbitlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbitlib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lbitlib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbitlib.c.i: cmake_force
@@ -2763,7 +2776,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbitlib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcode.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcode.c.o: njligames-njlic_engine/lua/src/lcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcode.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcode.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lcode.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcode.c.i: cmake_force
@@ -2776,7 +2789,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcode.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcorolib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcorolib.c.o: njligames-njlic_engine/lua/src/lcorolib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcorolib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcorolib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcorolib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lcorolib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcorolib.c.i: cmake_force
@@ -2789,7 +2802,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lcorolib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lctype.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lctype.c.o: njligames-njlic_engine/lua/src/lctype.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lctype.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lctype.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lctype.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lctype.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lctype.c.i: cmake_force
@@ -2802,7 +2815,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lctype.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldblib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldblib.c.o: njligames-njlic_engine/lua/src/ldblib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldblib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldblib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldblib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/ldblib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldblib.c.i: cmake_force
@@ -2815,7 +2828,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldblib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldebug.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldebug.c.o: njligames-njlic_engine/lua/src/ldebug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldebug.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldebug.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldebug.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/ldebug.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldebug.c.i: cmake_force
@@ -2828,7 +2841,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldebug.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldo.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldo.c.o: njligames-njlic_engine/lua/src/ldo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldo.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldo.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/ldo.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldo.c.i: cmake_force
@@ -2841,7 +2854,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldo.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldump.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldump.c.o: njligames-njlic_engine/lua/src/ldump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldump.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldump.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldump.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/ldump.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldump.c.i: cmake_force
@@ -2854,7 +2867,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ldump.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lfunc.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lfunc.c.o: njligames-njlic_engine/lua/src/lfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lfunc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lfunc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lfunc.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lfunc.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lfunc.c.i: cmake_force
@@ -2867,7 +2880,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lfunc.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lgc.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lgc.c.o: njligames-njlic_engine/lua/src/lgc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lgc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lgc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lgc.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lgc.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lgc.c.i: cmake_force
@@ -2880,7 +2893,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lgc.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/linit.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/linit.c.o: njligames-njlic_engine/lua/src/linit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/linit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/linit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/linit.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/linit.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/linit.c.i: cmake_force
@@ -2893,7 +2906,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/linit.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/liolib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/liolib.c.o: njligames-njlic_engine/lua/src/liolib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/liolib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/liolib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/liolib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/liolib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/liolib.c.i: cmake_force
@@ -2906,7 +2919,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/liolib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/llex.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/llex.c.o: njligames-njlic_engine/lua/src/llex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/llex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/llex.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/llex.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/llex.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/llex.c.i: cmake_force
@@ -2919,7 +2932,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/llex.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmathlib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmathlib.c.o: njligames-njlic_engine/lua/src/lmathlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmathlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmathlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmathlib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lmathlib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmathlib.c.i: cmake_force
@@ -2932,7 +2945,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmathlib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmem.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmem.c.o: njligames-njlic_engine/lua/src/lmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmem.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmem.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lmem.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmem.c.i: cmake_force
@@ -2945,7 +2958,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lmem.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loadlib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loadlib.c.o: njligames-njlic_engine/lua/src/loadlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loadlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loadlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loadlib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/loadlib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loadlib.c.i: cmake_force
@@ -2958,7 +2971,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loadlib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lobject.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lobject.c.o: njligames-njlic_engine/lua/src/lobject.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lobject.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lobject.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lobject.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lobject.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lobject.c.i: cmake_force
@@ -2971,7 +2984,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lobject.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lopcodes.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lopcodes.c.o: njligames-njlic_engine/lua/src/lopcodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lopcodes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lopcodes.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lopcodes.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lopcodes.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lopcodes.c.i: cmake_force
@@ -2984,7 +2997,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lopcodes.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loslib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loslib.c.o: njligames-njlic_engine/lua/src/loslib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loslib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loslib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loslib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/loslib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loslib.c.i: cmake_force
@@ -2997,7 +3010,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/loslib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lparser.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lparser.c.o: njligames-njlic_engine/lua/src/lparser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lparser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lparser.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lparser.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lparser.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lparser.c.i: cmake_force
@@ -3010,7 +3023,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lparser.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstate.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstate.c.o: njligames-njlic_engine/lua/src/lstate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstate.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstate.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lstate.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstate.c.i: cmake_force
@@ -3023,7 +3036,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstate.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstring.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstring.c.o: njligames-njlic_engine/lua/src/lstring.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstring.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstring.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstring.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lstring.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstring.c.i: cmake_force
@@ -3036,7 +3049,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstring.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstrlib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstrlib.c.o: njligames-njlic_engine/lua/src/lstrlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstrlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstrlib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstrlib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lstrlib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstrlib.c.i: cmake_force
@@ -3049,7 +3062,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lstrlib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltable.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltable.c.o: njligames-njlic_engine/lua/src/ltable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltable.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltable.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltable.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/ltable.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltable.c.i: cmake_force
@@ -3062,7 +3075,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltable.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltablib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltablib.c.o: njligames-njlic_engine/lua/src/ltablib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltablib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltablib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltablib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/ltablib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltablib.c.i: cmake_force
@@ -3075,7 +3088,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltablib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltm.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltm.c.o: njligames-njlic_engine/lua/src/ltm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltm.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/ltm.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltm.c.i: cmake_force
@@ -3088,7 +3101,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/ltm.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lundump.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lundump.c.o: njligames-njlic_engine/lua/src/lundump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lundump.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lundump.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lundump.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lundump.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lundump.c.i: cmake_force
@@ -3101,7 +3114,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lundump.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o: njligames-njlic_engine/lua/src/lutf8lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lutf8lib.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lutf8lib.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lutf8lib.c.i: cmake_force
@@ -3114,7 +3127,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lutf8lib.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lvm.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lvm.c.o: njligames-njlic_engine/lua/src/lvm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lvm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lvm.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lvm.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lvm.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lvm.c.i: cmake_force
@@ -3127,7 +3140,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lvm.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lzio.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lzio.c.o: njligames-njlic_engine/lua/src/lzio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lzio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lzio.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lzio.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lzio.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lzio.c.i: cmake_force
@@ -3140,7 +3153,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lzio.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o: njligames-njlic_engine/lua/exts/lualoadexts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/lualoadexts.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.i: cmake_force
@@ -3153,7 +3166,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/lualoadexts.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o: njligames-njlic_engine/lua/exts/luasocket/auxiliar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.i: cmake_force
@@ -3166,7 +3179,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/auxiliar.c.s: cmake
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o: njligames-njlic_engine/lua/exts/luasocket/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/buffer.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.i: cmake_force
@@ -3179,7 +3192,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/buffer.c.s: cmake_f
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o: njligames-njlic_engine/lua/exts/luasocket/except.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/except.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.i: cmake_force
@@ -3192,7 +3205,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/except.c.s: cmake_f
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o: njligames-njlic_engine/lua/exts/luasocket/inet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/inet.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.i: cmake_force
@@ -3205,7 +3218,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/inet.c.s: cmake_for
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o: njligames-njlic_engine/lua/exts/luasocket/io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/io.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.i: cmake_force
@@ -3218,7 +3231,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/io.c.s: cmake_force
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o: njligames-njlic_engine/lua/exts/luasocket/luasocket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/luasocket.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.i: cmake_force
@@ -3231,7 +3244,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/luasocket.c.s: cmak
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o: njligames-njlic_engine/lua/exts/luasocket/mime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/mime.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.i: cmake_force
@@ -3244,7 +3257,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/mime.c.s: cmake_for
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o: njligames-njlic_engine/lua/exts/luasocket/options.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/options.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.i: cmake_force
@@ -3257,7 +3270,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/options.c.s: cmake_
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o: njligames-njlic_engine/lua/exts/luasocket/select.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/select.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.i: cmake_force
@@ -3270,7 +3283,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/select.c.s: cmake_f
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o: njligames-njlic_engine/lua/exts/luasocket/serial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/serial.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.i: cmake_force
@@ -3283,7 +3296,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/serial.c.s: cmake_f
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o: njligames-njlic_engine/lua/exts/luasocket/tcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/tcp.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.i: cmake_force
@@ -3296,7 +3309,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/tcp.c.s: cmake_forc
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o: njligames-njlic_engine/lua/exts/luasocket/timeout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/timeout.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.i: cmake_force
@@ -3309,7 +3322,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/timeout.c.s: cmake_
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o: njligames-njlic_engine/lua/exts/luasocket/udp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/udp.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.i: cmake_force
@@ -3322,7 +3335,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/udp.c.s: cmake_forc
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o: njligames-njlic_engine/lua/exts/luasocket/unix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/unix.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.i: cmake_force
@@ -3335,7 +3348,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unix.c.s: cmake_for
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o: njligames-njlic_engine/lua/exts/luasocket/unixdgram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.i: cmake_force
@@ -3348,7 +3361,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixdgram.c.s: cmak
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o: njligames-njlic_engine/lua/exts/luasocket/unixstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/unixstream.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.i: cmake_force
@@ -3361,7 +3374,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/unixstream.c.s: cma
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o: njligames-njlic_engine/lua/exts/luasocket/usocket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocket/usocket.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.i: cmake_force
@@ -3374,7 +3387,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.s: cmake_
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o: njligames-njlic_engine/lua/exts/luasocketscripts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/exts/luasocketscripts.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.i: cmake_force
@@ -3387,7 +3400,7 @@ CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.s: cmake_f
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lua.c.o: CMakeFiles/lua.dir/flags.make
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lua.c.o: njligames-njlic_engine/lua/src/lua.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lua.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lua.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lua.c.o   -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/lua/src/lua.c
 
 CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lua.c.i: cmake_force
@@ -3604,6 +3617,7 @@ lua_OBJECTS = \
 "CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o" \
 "CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o" \
 "CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o" \
+"CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o" \
 "CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.o" \
 "CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.o" \
 "CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.o" \
@@ -3865,6 +3879,7 @@ lua: CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBe
 lua: CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o
 lua: CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o
 lua: CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o
+lua: CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o
 lua: CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.o
 lua: CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.o
 lua: CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.o
@@ -3919,28 +3934,28 @@ lua: CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocket/usocket.c.o
 lua: CMakeFiles/lua.dir/njligames-njlic_engine/lua/exts/luasocketscripts.c.o
 lua: CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lua.c.o
 lua: CMakeFiles/lua.dir/build.make
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3Collision.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3Common.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3Dynamics.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3Geometry.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3OpenCL_clew.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletCollision.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletDynamics.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletFileLoader.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamics.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamicsUtils.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletSoftBody.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletWorldImporter.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletXmlWorldImporter.a
-lua: thirdparty/bullet3/lib/linux/Debug/libConvexDecomposition.a
-lua: thirdparty/bullet3/lib/linux/Debug/libGIMPACTUtils.a
-lua: thirdparty/bullet3/lib/linux/Debug/libHACD.a
-lua: thirdparty/bullet3/lib/linux/Debug/libLinearMath.a
-lua: thirdparty/ImGuizmo/lib/linux/Debug/libImGuizmo.a
-lua: thirdparty/ogg/lib/linux/Debug/libogg.so
-lua: thirdparty/vorbis/lib/linux/Debug/libvorbis.so
-lua: thirdparty/vorbis/lib/linux/Debug/libvorbisenc.so
-lua: thirdparty/vorbis/lib/linux/Debug/libvorbisfile.so
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Collision.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Common.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Dynamics.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Geometry.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3OpenCL_clew.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletCollision.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletDynamics.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletFileLoader.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletInverseDynamics.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletInverseDynamicsUtils.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletSoftBody.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletWorldImporter.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletXmlWorldImporter.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libConvexDecomposition.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libGIMPACTUtils.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libHACD.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libLinearMath.a
+lua: thirdparty/ImGuizmo/lib/raspberrypi/Debug/libImGuizmo.a
+lua: /usr/lib/arm-linux-gnueabihf/libogg.so
+lua: /usr/lib/arm-linux-gnueabihf/libvorbis.so
+lua: /usr/lib/arm-linux-gnueabihf/libvorbisenc.so
+lua: /usr/lib/arm-linux-gnueabihf/libvorbisfile.so
 lua: /usr/lib/arm-linux-gnueabihf/libopenal.so
 lua: /usr/lib/arm-linux-gnueabihf/libGL.so
 lua: /usr/lib/arm-linux-gnueabihf/libGLU.so
@@ -3953,35 +3968,35 @@ lua: /usr/lib/arm-linux-gnueabihf/libXi.so
 lua: /usr/lib/arm-linux-gnueabihf/libXrandr.so
 lua: /usr/lib/arm-linux-gnueabihf/libXss.so
 lua: /usr/lib/arm-linux-gnueabihf/libXxf86vm.so
-lua: thirdparty/sdl2/lib/linux/Debug/libSDL2.a
+lua: thirdparty/sdl2/lib/raspberrypi/Debug/libSDL2.so
 lua: /usr/lib/arm-linux-gnueabihf/libGLEW.so
 lua: libNJLIC-lua-swig-njlic-staticd.a
 lua: libNJLIC-lua-swig-bullet3-staticd.a
 lua: libNJLIC-staticd.a
 lua: libNJLIC-lua-swig-bullet3-staticd.a
 lua: libNJLIC-staticd.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3Collision.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3Common.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3Dynamics.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3Geometry.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet3OpenCL_clew.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletCollision.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletDynamics.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletFileLoader.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamics.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamicsUtils.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletSoftBody.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletWorldImporter.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBulletXmlWorldImporter.a
-lua: thirdparty/bullet3/lib/linux/Debug/libConvexDecomposition.a
-lua: thirdparty/bullet3/lib/linux/Debug/libGIMPACTUtils.a
-lua: thirdparty/bullet3/lib/linux/Debug/libHACD.a
-lua: thirdparty/bullet3/lib/linux/Debug/libLinearMath.a
-lua: thirdparty/ImGuizmo/lib/linux/Debug/libImGuizmo.a
-lua: thirdparty/ogg/lib/linux/Debug/libogg.so
-lua: thirdparty/vorbis/lib/linux/Debug/libvorbis.so
-lua: thirdparty/vorbis/lib/linux/Debug/libvorbisenc.so
-lua: thirdparty/vorbis/lib/linux/Debug/libvorbisfile.so
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Collision.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Common.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Dynamics.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Geometry.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3OpenCL_clew.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletCollision.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletDynamics.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletFileLoader.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletInverseDynamics.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletInverseDynamicsUtils.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletSoftBody.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletWorldImporter.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBulletXmlWorldImporter.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libConvexDecomposition.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libGIMPACTUtils.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libHACD.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libLinearMath.a
+lua: thirdparty/ImGuizmo/lib/raspberrypi/Debug/libImGuizmo.a
+lua: /usr/lib/arm-linux-gnueabihf/libogg.so
+lua: /usr/lib/arm-linux-gnueabihf/libvorbis.so
+lua: /usr/lib/arm-linux-gnueabihf/libvorbisenc.so
+lua: /usr/lib/arm-linux-gnueabihf/libvorbisfile.so
 lua: /usr/lib/arm-linux-gnueabihf/libopenal.so
 lua: /usr/lib/arm-linux-gnueabihf/libGL.so
 lua: /usr/lib/arm-linux-gnueabihf/libGLU.so
@@ -3994,12 +4009,12 @@ lua: /usr/lib/arm-linux-gnueabihf/libXi.so
 lua: /usr/lib/arm-linux-gnueabihf/libXrandr.so
 lua: /usr/lib/arm-linux-gnueabihf/libXss.so
 lua: /usr/lib/arm-linux-gnueabihf/libXxf86vm.so
-lua: thirdparty/sdl2/lib/linux/Debug/libSDL2.a
+lua: thirdparty/sdl2/lib/raspberrypi/Debug/libSDL2.so
 lua: /usr/lib/arm-linux-gnueabihf/libGLEW.so
 lua: libNJLIC-lua-swig-njlic-staticd.a
-lua: thirdparty/bullet3/lib/linux/Debug/libBullet2FileLoader.a
+lua: thirdparty/bullet3/lib/raspberrypi/Debug/libBullet2FileLoader.a
 lua: CMakeFiles/lua.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Linking CXX executable lua"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Linking CXX executable lua"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lua.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

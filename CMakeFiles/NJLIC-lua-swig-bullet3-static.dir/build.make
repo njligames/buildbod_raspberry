@@ -57,27 +57,27 @@ include CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/flags.make
 
-CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o: CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/flags.make
-CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o: njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx
+CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o: CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/flags.make
+CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o: njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o -c /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx
 
-CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx > CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.i
+CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx > CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.i
 
-CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx -o CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.s
+CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pirate/test_project_repo/buildbot_raspberry/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx -o CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.s
 
 # Object files for target NJLIC-lua-swig-bullet3-static
 NJLIC__lua__swig__bullet3__static_OBJECTS = \
-"CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o"
+"CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o"
 
 # External object files for target NJLIC-lua-swig-bullet3-static
 NJLIC__lua__swig__bullet3__static_EXTERNAL_OBJECTS =
 
-libNJLIC-lua-swig-bullet3-staticd.a: CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o
+libNJLIC-lua-swig-bullet3-staticd.a: CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o
 libNJLIC-lua-swig-bullet3-staticd.a: CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/build.make
 libNJLIC-lua-swig-bullet3-staticd.a: CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libNJLIC-lua-swig-bullet3-staticd.a"

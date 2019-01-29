@@ -448,8 +448,8 @@ clean: CMakeFiles/clang-format.dir/clean
 # Target rules for target CMakeFiles/NJLIC-static.dir
 
 # All Build rule for target.
-CMakeFiles/NJLIC-static.dir/all: CMakeFiles/gen_NJLIC-lua-swig-bullet3-static_bullet3LUA_wrap.dir/all
 CMakeFiles/NJLIC-static.dir/all: CMakeFiles/NJLIC-lua-swig-njlic-static.dir/all
+CMakeFiles/NJLIC-static.dir/all: CMakeFiles/gen_NJLIC-lua-swig-bullet3-static_bullet3LUA_wrap.dir/all
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/depend
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pirate/test_project_repo/buildbot_raspberry/CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target NJLIC-static"

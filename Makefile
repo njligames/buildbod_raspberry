@@ -9631,59 +9631,95 @@ njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.s:
 	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.s
 .PHONY : njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.s
 
-njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.o: njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o
+njligames-njlic_engine/njli/steering/support/Path.o: njligames-njlic_engine/njli/steering/support/Path.cpp.o
 
-.PHONY : njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.o
-
-# target to build an object file
-njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o:
-	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/build.make CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o
-.PHONY : njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.o
-
-njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.i: njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.i
-
-.PHONY : njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.i
-
-# target to preprocess a source file
-njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.i:
-	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/build.make CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.i
-.PHONY : njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.i
-
-njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.s: njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.s
-
-.PHONY : njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.s
-
-# target to generate assembly for a file
-njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.s:
-	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/build.make CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.s
-.PHONY : njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.cxx.s
-
-njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.o: njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o
-
-.PHONY : njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.o
+.PHONY : njligames-njlic_engine/njli/steering/support/Path.o
 
 # target to build an object file
-njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o:
-	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-njlic-static.dir/build.make CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o
-.PHONY : njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.o
+njligames-njlic_engine/njli/steering/support/Path.cpp.o:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o
+.PHONY : njligames-njlic_engine/njli/steering/support/Path.cpp.o
 
-njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.i: njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.i
+njligames-njlic_engine/njli/steering/support/Path.i: njligames-njlic_engine/njli/steering/support/Path.cpp.i
 
-.PHONY : njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.i
+.PHONY : njligames-njlic_engine/njli/steering/support/Path.i
 
 # target to preprocess a source file
-njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.i:
-	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-njlic-static.dir/build.make CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.i
-.PHONY : njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.i
+njligames-njlic_engine/njli/steering/support/Path.cpp.i:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.i
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.i
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.i
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.i
+.PHONY : njligames-njlic_engine/njli/steering/support/Path.cpp.i
 
-njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.s: njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.s
+njligames-njlic_engine/njli/steering/support/Path.s: njligames-njlic_engine/njli/steering/support/Path.cpp.s
 
-.PHONY : njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.s
+.PHONY : njligames-njlic_engine/njli/steering/support/Path.s
 
 # target to generate assembly for a file
-njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.s:
-	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-njlic-static.dir/build.make CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.s
-.PHONY : njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.cxx.s
+njligames-njlic_engine/njli/steering/support/Path.cpp.s:
+	$(MAKE) -f CMakeFiles/NJLIC-exe.dir/build.make CMakeFiles/NJLIC-exe.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.s
+	$(MAKE) -f CMakeFiles/lua.dir/build.make CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.s
+	$(MAKE) -f CMakeFiles/luac.dir/build.make CMakeFiles/luac.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.s
+	$(MAKE) -f CMakeFiles/NJLIC-static.dir/build.make CMakeFiles/NJLIC-static.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.s
+.PHONY : njligames-njlic_engine/njli/steering/support/Path.cpp.s
+
+njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.o: njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o
+
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.o
+
+# target to build an object file
+njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o:
+	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/build.make CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.o
+
+njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.i: njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.i
+
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.i
+
+# target to preprocess a source file
+njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.i:
+	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/build.make CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.i
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.i
+
+njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.s: njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.s
+
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.s
+
+# target to generate assembly for a file
+njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.s:
+	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/build.make CMakeFiles/NJLIC-lua-swig-bullet3-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.s
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.cxx.s
+
+njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.o: njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o
+
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.o
+
+# target to build an object file
+njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o:
+	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-njlic-static.dir/build.make CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.o
+
+njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.i: njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.i
+
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.i
+
+# target to preprocess a source file
+njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.i:
+	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-njlic-static.dir/build.make CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.i
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.i
+
+njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.s: njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.s
+
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.s
+
+# target to generate assembly for a file
+njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.s:
+	$(MAKE) -f CMakeFiles/NJLIC-lua-swig-njlic-static.dir/build.make CMakeFiles/NJLIC-lua-swig-njlic-static.dir/njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.s
+.PHONY : njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.cxx.s
 
 # Help Target
 help:
@@ -10488,12 +10524,15 @@ help:
 	@echo "... njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.o"
 	@echo "... njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.i"
 	@echo "... njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.s"
-	@echo "... njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.o"
-	@echo "... njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.i"
-	@echo "... njligames-njlic_engine/swig/lua/Linux/bullet3LUA_wrap.s"
-	@echo "... njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.o"
-	@echo "... njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.i"
-	@echo "... njligames-njlic_engine/swig/lua/Linux/njlicLUA_wrap.s"
+	@echo "... njligames-njlic_engine/njli/steering/support/Path.o"
+	@echo "... njligames-njlic_engine/njli/steering/support/Path.i"
+	@echo "... njligames-njlic_engine/njli/steering/support/Path.s"
+	@echo "... njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.o"
+	@echo "... njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.i"
+	@echo "... njligames-njlic_engine/swig/lua/raspberrypi/bullet3LUA_wrap.s"
+	@echo "... njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.o"
+	@echo "... njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.i"
+	@echo "... njligames-njlic_engine/swig/lua/raspberrypi/njlicLUA_wrap.s"
 .PHONY : help
 
 

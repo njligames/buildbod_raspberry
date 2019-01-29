@@ -203,6 +203,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorSeparation.cpp.o"
   "CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWallAvoidance.cpp.o"
   "CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/behavior/SteeringBehaviorWander.cpp.o"
+  "CMakeFiles/lua.dir/njligames-njlic_engine/njli/steering/support/Path.cpp.o"
   "CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lapi.c.o"
   "CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lauxlib.c.o"
   "CMakeFiles/lua.dir/njligames-njlic_engine/lua/src/lbaselib.c.o"

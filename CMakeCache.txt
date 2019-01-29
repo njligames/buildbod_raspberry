@@ -45,175 +45,175 @@ ASSERTIONS:STRING=auto
 BUILD_DOC:BOOL=ON
 
 //Path to a file.
-BULLET3_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3
+BULLET3_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3
 
 //Path to a library.
-Bullet2FileLoader_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet2FileLoader.a
+Bullet2FileLoader_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet2FileLoader.a
 
 //Path to a library.
 Bullet2FileLoader_LIBRARY_MINSIZEREL:FILEPATH=Bullet2FileLoader_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-Bullet2FileLoader_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet2FileLoader.a
+Bullet2FileLoader_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet2FileLoader.a
 
 //Path to a library.
-Bullet2FileLoader_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBullet2FileLoader.a
+Bullet2FileLoader_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBullet2FileLoader.a
 
 //Path to a library.
-Bullet3Collision_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3Collision.a
+Bullet3Collision_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Collision.a
 
 //Path to a library.
 Bullet3Collision_LIBRARY_MINSIZEREL:FILEPATH=Bullet3Collision_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-Bullet3Collision_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3Collision.a
+Bullet3Collision_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3Collision.a
 
 //Path to a library.
-Bullet3Collision_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBullet3Collision.a
+Bullet3Collision_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBullet3Collision.a
 
 //Path to a library.
-Bullet3Common_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3Common.a
+Bullet3Common_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Common.a
 
 //Path to a library.
 Bullet3Common_LIBRARY_MINSIZEREL:FILEPATH=Bullet3Common_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-Bullet3Common_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3Common.a
+Bullet3Common_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3Common.a
 
 //Path to a library.
-Bullet3Common_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBullet3Common.a
+Bullet3Common_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBullet3Common.a
 
 //Path to a library.
-Bullet3Dynamics_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3Dynamics.a
+Bullet3Dynamics_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Dynamics.a
 
 //Path to a library.
 Bullet3Dynamics_LIBRARY_MINSIZEREL:FILEPATH=Bullet3Dynamics_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-Bullet3Dynamics_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3Dynamics.a
+Bullet3Dynamics_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3Dynamics.a
 
 //Path to a library.
-Bullet3Dynamics_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBullet3Dynamics.a
+Bullet3Dynamics_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBullet3Dynamics.a
 
 //Path to a library.
-Bullet3Geometry_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3Geometry.a
+Bullet3Geometry_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Geometry.a
 
 //Path to a library.
 Bullet3Geometry_LIBRARY_MINSIZEREL:FILEPATH=Bullet3Geometry_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-Bullet3Geometry_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3Geometry.a
+Bullet3Geometry_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3Geometry.a
 
 //Path to a library.
-Bullet3Geometry_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBullet3Geometry.a
+Bullet3Geometry_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBullet3Geometry.a
 
 //Path to a library.
-Bullet3OpenCL_clew_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3OpenCL_clew.a
+Bullet3OpenCL_clew_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3OpenCL_clew.a
 
 //Path to a library.
 Bullet3OpenCL_clew_LIBRARY_MINSIZEREL:FILEPATH=Bullet3OpenCL_clew_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-Bullet3OpenCL_clew_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3OpenCL_clew.a
+Bullet3OpenCL_clew_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3OpenCL_clew.a
 
 //Path to a library.
-Bullet3OpenCL_clew_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBullet3OpenCL_clew.a
+Bullet3OpenCL_clew_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBullet3OpenCL_clew.a
 
 //Path to a library.
-BulletCollision_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletCollision.a
+BulletCollision_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletCollision.a
 
 //Path to a library.
 BulletCollision_LIBRARY_MINSIZEREL:FILEPATH=BulletCollision_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-BulletCollision_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletCollision.a
+BulletCollision_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletCollision.a
 
 //Path to a library.
-BulletCollision_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBulletCollision.a
+BulletCollision_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBulletCollision.a
 
 //Path to a library.
-BulletDynamics_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletDynamics.a
+BulletDynamics_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletDynamics.a
 
 //Path to a library.
 BulletDynamics_LIBRARY_MINSIZEREL:FILEPATH=BulletDynamics_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-BulletDynamics_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletDynamics.a
+BulletDynamics_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletDynamics.a
 
 //Path to a library.
-BulletDynamics_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBulletDynamics.a
+BulletDynamics_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBulletDynamics.a
 
 //Path to a library.
-BulletFileLoader_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletFileLoader.a
+BulletFileLoader_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletFileLoader.a
 
 //Path to a library.
 BulletFileLoader_LIBRARY_MINSIZEREL:FILEPATH=BulletFileLoader_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-BulletFileLoader_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletFileLoader.a
+BulletFileLoader_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletFileLoader.a
 
 //Path to a library.
-BulletFileLoader_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBulletFileLoader.a
+BulletFileLoader_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBulletFileLoader.a
 
 //Path to a library.
-BulletInverseDynamicsUtils_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamicsUtils.a
+BulletInverseDynamicsUtils_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletInverseDynamicsUtils.a
 
 //Path to a library.
 BulletInverseDynamicsUtils_LIBRARY_MINSIZEREL:FILEPATH=BulletInverseDynamicsUtils_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-BulletInverseDynamicsUtils_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletInverseDynamicsUtils.a
+BulletInverseDynamicsUtils_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletInverseDynamicsUtils.a
 
 //Path to a library.
-BulletInverseDynamicsUtils_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBulletInverseDynamicsUtils.a
+BulletInverseDynamicsUtils_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBulletInverseDynamicsUtils.a
 
 //Path to a library.
-BulletInverseDynamics_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamics.a
+BulletInverseDynamics_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletInverseDynamics.a
 
 //Path to a library.
 BulletInverseDynamics_LIBRARY_MINSIZEREL:FILEPATH=BulletInverseDynamics_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-BulletInverseDynamics_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletInverseDynamics.a
+BulletInverseDynamics_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletInverseDynamics.a
 
 //Path to a library.
-BulletInverseDynamics_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBulletInverseDynamics.a
+BulletInverseDynamics_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBulletInverseDynamics.a
 
 //Path to a library.
-BulletSoftBody_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletSoftBody.a
+BulletSoftBody_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletSoftBody.a
 
 //Path to a library.
 BulletSoftBody_LIBRARY_MINSIZEREL:FILEPATH=BulletSoftBody_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-BulletSoftBody_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletSoftBody.a
+BulletSoftBody_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletSoftBody.a
 
 //Path to a library.
-BulletSoftBody_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBulletSoftBody.a
+BulletSoftBody_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBulletSoftBody.a
 
 //Path to a library.
-BulletWorldImporter_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletWorldImporter.a
+BulletWorldImporter_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletWorldImporter.a
 
 //Path to a library.
 BulletWorldImporter_LIBRARY_MINSIZEREL:FILEPATH=BulletWorldImporter_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-BulletWorldImporter_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletWorldImporter.a
+BulletWorldImporter_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletWorldImporter.a
 
 //Path to a library.
-BulletWorldImporter_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBulletWorldImporter.a
+BulletWorldImporter_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBulletWorldImporter.a
 
 //Path to a library.
-BulletXmlWorldImporter_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletXmlWorldImporter.a
+BulletXmlWorldImporter_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletXmlWorldImporter.a
 
 //Path to a library.
 BulletXmlWorldImporter_LIBRARY_MINSIZEREL:FILEPATH=BulletXmlWorldImporter_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-BulletXmlWorldImporter_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletXmlWorldImporter.a
+BulletXmlWorldImporter_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletXmlWorldImporter.a
 
 //Path to a library.
-BulletXmlWorldImporter_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libBulletXmlWorldImporter.a
+BulletXmlWorldImporter_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libBulletXmlWorldImporter.a
 
 //use: `brew install clang-format` to install
 CLANG_FORMAT_BIN:STRING=/usr/local/bin/clang-format
@@ -341,7 +341,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/home/pirate/test_project_repo/buildbot_raspberry/install/Debug
+CMAKE_INSTALL_PREFIX:PATH=/home/pirate/test_project_repo/buildbot_raspberry/install/MinSizeRel
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -474,25 +474,55 @@ CPACK_SOURCE_ZIP:BOOL=OFF
 CPPCHECK_FORMAT_BIN:STRING=/usr/local/bin/cppcheck
 
 //Path to a library.
-ConvexDecomposition_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libConvexDecomposition.a
+ConvexDecomposition_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libConvexDecomposition.a
 
 //Path to a library.
 ConvexDecomposition_LIBRARY_MINSIZEREL:FILEPATH=ConvexDecomposition_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-ConvexDecomposition_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libConvexDecomposition.a
+ConvexDecomposition_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libConvexDecomposition.a
 
 //Path to a library.
-ConvexDecomposition_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libConvexDecomposition.a
+ConvexDecomposition_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libConvexDecomposition.a
 
 //Path to a file.
-DEBUG-DRAW_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/debug-draw/lib/linux/include/debug-draw
+DEBUG-DRAW_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/debug-draw/lib/raspberrypi/include/debug-draw
 
 //Use DirectX for Windows audio/video
 DIRECTX:BOOL=OFF
 
 //Support the disk writer audio driver
 DISKAUDIO:BOOL=ON
+
+//bullet3 typedef
+DOWNLOAD_BULLET3_LIBRARY:BOOL=ON
+
+//bullet3 typedef
+DOWNLOAD_DEBUGDRAW_ENABLED:BOOL=ON
+
+//bullet3 typedef
+DOWNLOAD_GLM_ENABLED:BOOL=ON
+
+//bullet3 typedef
+DOWNLOAD_IMGUIZMO_ENABLED:BOOL=ON
+
+//bullet3 typedef
+DOWNLOAD_IMGUI_ENABLED:BOOL=ON
+
+//bullet3 typedef
+DOWNLOAD_JSONCPP_ENABLED:BOOL=OFF
+
+//bullet3 typedef
+DOWNLOAD_NANOVG_ENABLED:BOOL=OFF
+
+//ogg typedef
+DOWNLOAD_OGG_LIBRARY:BOOL=OFF
+
+//bullet3 typedef
+DOWNLOAD_OPENCV_LIBRARY:BOOL=OFF
+
+//vorbis typedef
+DOWNLOAD_VORBIS_LIBRARY:BOOL=OFF
 
 //Dot tool for use with Doxygen
 DOXYGEN_DOT_EXECUTABLE:FILEPATH=DOXYGEN_DOT_EXECUTABLE-NOTFOUND
@@ -534,16 +564,16 @@ FUSIONSOUND:BOOL=OFF
 GCC_ATOMICS:BOOL=ON
 
 //Path to a library.
-GIMPACTUtils_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libGIMPACTUtils.a
+GIMPACTUtils_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libGIMPACTUtils.a
 
 //Path to a library.
 GIMPACTUtils_LIBRARY_MINSIZEREL:FILEPATH=GIMPACTUtils_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-GIMPACTUtils_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libGIMPACTUtils.a
+GIMPACTUtils_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libGIMPACTUtils.a
 
 //Path to a library.
-GIMPACTUtils_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libGIMPACTUtils.a
+GIMPACTUtils_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libGIMPACTUtils.a
 
 //Path to a file.
 GLEW_INCLUDE_DIR:PATH=/usr/include
@@ -552,42 +582,42 @@ GLEW_INCLUDE_DIR:PATH=/usr/include
 GLEW_LIBRARY:FILEPATH=/usr/lib/arm-linux-gnueabihf/libGLEW.so
 
 //Path to a file.
-GLM_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/glm/lib/linux/include/glm
+GLM_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/glm/lib/raspberrypi/include/glm
 
 //Path to a library.
-HACD_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libHACD.a
+HACD_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libHACD.a
 
 //Path to a library.
 HACD_LIBRARY_MINSIZEREL:FILEPATH=HACD_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-HACD_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libHACD.a
+HACD_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libHACD.a
 
 //Path to a library.
-HACD_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libHACD.a
+HACD_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libHACD.a
 
 //Path to a file.
-IMGUIZMO_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/linux/include/ImGuizmo
+IMGUIZMO_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/raspberrypi/include/ImGuizmo
 
 //Path to a file.
-IMGUI_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/imgui/lib/linux/include/imgui
+IMGUI_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/imgui/lib/raspberrypi/include/imgui
 
 //Use the Touchscreen library for input
 INPUT_TSLIB:BOOL=ON
 
 //Path to a library.
-ImGuizmo_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/linux/Debug/libImGuizmo.a
+ImGuizmo_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/raspberrypi/Debug/libImGuizmo.a
 
 //Path to a library.
 ImGuizmo_LIBRARY_MINSIZEREL:FILEPATH=ImGuizmo_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-ImGuizmo_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/linux/Release/libImGuizmo.a
+ImGuizmo_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/raspberrypi/Release/libImGuizmo.a
 
 //Path to a library.
-ImGuizmo_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/linux/RelWithDebInfo/libImGuizmo.a
+ImGuizmo_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/raspberrypi/RelWithDebInfo/libImGuizmo.a
 
-//The URL for the include files for thirdparty/ImGuizmo/lib/linux/include
+//The URL for the include files for thirdparty/ImGuizmo/lib/raspberrypi/include
 ImGuizmo_URL_INCLUDE:STRING=https://www.dropbox.com/s/vi20so6cykm4zxx/libimguizmo_includes.tar.gz?dl=0
 
 //Support the JACK audio API
@@ -608,17 +638,54 @@ LIBSAMPLERATE:BOOL=ON
 //Dynamically load libsamplerate
 LIBSAMPLERATE_SHARED:BOOL=ON
 
+//Build lua interpretter.
+LUA_BUILD_LUA:BOOL=ON
+
+//Build luac compiler.
+LUA_BUILD_LUAC:BOOL=ON
+
+//Enable backwards compatibility options with lua-5.1.
+LUA_COMPAT_5_1:BOOL=ON
+
+//Enable backwards compatibility options with lua-5.2.
+LUA_COMPAT_5_2:BOOL=ON
+
+//Environment variable to use as package.cpath.
+LUA_CPATH:STRING=LUA_CPATH
+
+//Environment variable for initial script.
+LUA_INIT:STRING=LUA_INIT
+
+//Environment variable to use as package.path.
+LUA_PATH:STRING=LUA_PATH
+
+//Assume 'printf' handles 'aA' specifiers
+LUA_USE_AFORMAT:BOOL=ON
+
+//Use only C89 features.
+LUA_USE_C89:BOOL=ON
+
+//Use dynamic linker to load modules.
+LUA_USE_DLOPEN:BOOL=ON
+
+//Use POSIX features.
+LUA_USE_POSIX:BOOL=ON
+
+//Use modified loadlib.c with support for relative paths on posix
+// systems.
+LUA_USE_RELATIVE_LOADLIB:BOOL=ON
+
 //Path to a library.
-LinearMath_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libLinearMath.a
+LinearMath_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libLinearMath.a
 
 //Path to a library.
 LinearMath_LIBRARY_MINSIZEREL:FILEPATH=LinearMath_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-LinearMath_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libLinearMath.a
+LinearMath_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libLinearMath.a
 
 //Path to a library.
-LinearMath_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/RelWithDebInfo/libLinearMath.a
+LinearMath_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/RelWithDebInfo/libLinearMath.a
 
 //Path to a library.
 MIR_LIB:FILEPATH=MIR_LIB-NOTFOUND
@@ -676,7 +743,7 @@ NJLIC_STATIC:BOOL=ON
 NJLIC_STATIC_PIC:BOOL=OFF
 
 //Path to a file.
-OGG_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ogg/lib/linux/include/ogg
+OGG_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a file.
 OPENAL_INCLUDE_DIR:PATH=/usr/include/AL
@@ -739,19 +806,19 @@ RENDER_D3D:BOOL=OFF
 RPATH:BOOL=ON
 
 //Path to a file.
-SDL2_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/linux/include
+SDL2_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/raspberrypi/include
 
 //Path to a library.
-SDL2_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/linux/Debug/libSDL2.a
+SDL2_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/raspberrypi/Debug/libSDL2.so
 
 //Path to a library.
 SDL2_LIBRARY_MINSIZEREL:FILEPATH=SDL2_LIBRARY_MINSIZEREL-NOTFOUND
 
 //Path to a library.
-SDL2_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/linux/Release/libSDL2.a
+SDL2_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/raspberrypi/Release/libSDL2.so
 
 //Path to a library.
-SDL2_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/linux/RelWithDebInfo/libSDL2.a
+SDL2_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/raspberrypi/RelWithDebInfo/libSDL2.so
 
 //Enable the Atomic subsystem
 SDL_ATOMIC:BOOL=ON
@@ -814,7 +881,7 @@ SSE3:BOOL=OFF
 SSEMATH:BOOL=OFF
 
 //Path to a file.
-STBIMAGES_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/stbimages/lib/linux/include
+STBIMAGES_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/stbimages/lib/raspberrypi/include
 
 //Path to a file.
 SWIG_DIR:PATH=/usr/share/swig3.0
@@ -826,7 +893,10 @@ SWIG_EXECUTABLE:FILEPATH=/usr/bin/swig3.0
 SWIG_VERSION:STRING=3.0.10
 
 //The URL for Debug Bullet3
-THIRDPARTY_BULLET3_DEBUG_URL:STRING=https://www.dropbox.com/s/1mk5dr5hrsk78lq/libbullet3_linux_Debug.tar.gz?dl=0
+THIRDPARTY_BULLET3_DEBUG_URL:STRING=https://www.dropbox.com/s/zylp796y3v1ok0w/libbullet3_raspberry_Debug.tar.gz?dl=0
+
+//Use bullet3 library
+THIRDPARTY_BULLET3_DOWNLOAD:BOOL=ON
 
 //Use bullet3 library
 THIRDPARTY_BULLET3_ENABLED:BOOL=ON
@@ -835,13 +905,13 @@ THIRDPARTY_BULLET3_ENABLED:BOOL=ON
 THIRDPARTY_BULLET3_INCLUDE_URL:STRING=https://www.dropbox.com/s/f2zfpkdx2agtk00/libbullet3_includes.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_BULLET3_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/mrqliccd90oitk6/libbullet3_linux_Release.tar.gz?dl=0
+THIRDPARTY_BULLET3_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/uchtktrqpkh4bke/libbullet3_raspberry_Release.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_BULLET3_RELEASE_URL:STRING=https://www.dropbox.com/s/mrqliccd90oitk6/libbullet3_linux_Release.tar.gz?dl=0
+THIRDPARTY_BULLET3_RELEASE_URL:STRING=https://www.dropbox.com/s/uchtktrqpkh4bke/libbullet3_raspberry_Release.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_BULLET3_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/1mk5dr5hrsk78lq/libbullet3_linux_Debug.tar.gz?dl=0
+THIRDPARTY_BULLET3_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/zylp796y3v1ok0w/libbullet3_raspberry_Debug.tar.gz?dl=0
 
 //The URL for include Bullet3
 THIRDPARTY_DEBUG-DRAW_INCLUDE_URL:STRING=https://www.dropbox.com/s/c405ev7l3d0ruvb/libdebug-draw_includes.tar.gz?dl=0
@@ -856,7 +926,7 @@ THIRDPARTY_GLM_ENABLED:BOOL=ON
 THIRDPARTY_GLM_INCLUDE_URL:STRING=https://www.dropbox.com/s/fferowgwlio96m5/libglm_includes.tar.gz?dl=0
 
 //The URL for Debug Bullet3
-THIRDPARTY_IMGUIZMO_DEBUG_URL:STRING=https://www.dropbox.com/s/yh8g0qls2d2hssl/libImGuizmo_linux_Debug.tar.gz?dl=0
+THIRDPARTY_IMGUIZMO_DEBUG_URL:STRING=https://www.dropbox.com/s/ih2zlolzqx302t7/libImGuizmo_raspberry_Debug.tar.gz?dl=0
 
 //Use ImGuizmo library
 THIRDPARTY_IMGUIZMO_ENABLED:BOOL=ON
@@ -865,16 +935,13 @@ THIRDPARTY_IMGUIZMO_ENABLED:BOOL=ON
 THIRDPARTY_IMGUIZMO_INCLUDE_URL:STRING=https://www.dropbox.com/s/vi20so6cykm4zxx/libimguizmo_includes.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_IMGUIZMO_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/rfincechrbpa6gb/libImGuizmo_linux_Release.tar.gz?dl=0
+THIRDPARTY_IMGUIZMO_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/swl1ww2221zybo2/libImGuizmo_raspberry_Release.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_IMGUIZMO_RELEASE_URL:STRING=https://www.dropbox.com/s/rfincechrbpa6gb/libImGuizmo_linux_Release.tar.gz?dl=0
+THIRDPARTY_IMGUIZMO_RELEASE_URL:STRING=https://www.dropbox.com/s/swl1ww2221zybo2/libImGuizmo_raspberry_Release.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_IMGUIZMO_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/yh8g0qls2d2hssl/libImGuizmo_linux_Debug.tar.gz?dl=0
-
-//The URL for Debug Bullet3
-THIRDPARTY_IMGUI_DEBUG_URL:STRING=https://www.dropbox.com/s/1qi0ytr8f5nsbwf/libimgui_linux_Debug.tar.gz?dl=0
+THIRDPARTY_IMGUIZMO_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/ih2zlolzqx302t7/libImGuizmo_raspberry_Debug.tar.gz?dl=0
 
 //Use ImGui library
 THIRDPARTY_IMGUI_ENABLED:BOOL=ON
@@ -882,38 +949,23 @@ THIRDPARTY_IMGUI_ENABLED:BOOL=ON
 //The URL for include Bullet3
 THIRDPARTY_IMGUI_INCLUDE_URL:STRING=https://www.dropbox.com/s/xhauwvyy48g5dd7/libimgui_includes.tar.gz?dl=0
 
-//The URL for Release Bullet3
-THIRDPARTY_IMGUI_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/x2y6hlq8mlpzlx5/libimgui_linux_Release.tar.gz?dl=0
-
-//The URL for Release Bullet3
-THIRDPARTY_IMGUI_RELEASE_URL:STRING=https://www.dropbox.com/s/x2y6hlq8mlpzlx5/libimgui_linux_Release.tar.gz?dl=0
-
-//The URL for Release Bullet3
-THIRDPARTY_IMGUI_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/1qi0ytr8f5nsbwf/libimgui_linux_Debug.tar.gz?dl=0
-
 //Use JsonCPP library
 THIRDPARTY_JSONCPP_ENABLED:BOOL=OFF
 
 //Use Nanovg library
 THIRDPARTY_NANOVG_ENABLED:BOOL=OFF
 
-//The URL for Debug Bullet3
-THIRDPARTY_OGG_DEBUG_URL:STRING=https://www.dropbox.com/s/jch02hzlxr00bs0/libogg_linux_Debug.tar.gz?dl=0
+//Download OGG library
+THIRDPARTY_OGG_DOWNLOAD:BOOL=OFF
 
-//The URL for include Bullet3
-THIRDPARTY_OGG_INCLUDE_URL:STRING=https://www.dropbox.com/s/agc7zmqg9m64x9i/libogg_includes.tar.gz?dl=0
+//Use OpenCV library
+THIRDPARTY_OPENCV_DOWNLOAD:BOOL=OFF
 
-//The URL for Release Bullet3
-THIRDPARTY_OGG_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/m0ikljr1gnm3lat/libogg_linux_Release.tar.gz?dl=0
-
-//The URL for Release Bullet3
-THIRDPARTY_OGG_RELEASE_URL:STRING=https://www.dropbox.com/s/m0ikljr1gnm3lat/libogg_linux_Release.tar.gz?dl=0
-
-//The URL for Release Bullet3
-THIRDPARTY_OGG_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/jch02hzlxr00bs0/libogg_linux_Debug.tar.gz?dl=0
+//Use OpenCV library
+THIRDPARTY_OPENCV_ENABLED:BOOL=OFF
 
 //The URL for Debug Bullet3
-THIRDPARTY_SDL2_DEBUG_URL:STRING=https://www.dropbox.com/s/n0c4gjxb94kcvg5/libsdl2_linux_Debug.tar.gz?dl=0
+THIRDPARTY_SDL2_DEBUG_URL:STRING=https://www.dropbox.com/s/2snm9jmrl14242z/libsdl2_raspberry_Debug.tar.gz?dl=0
 
 //Use SDL2 library
 THIRDPARTY_SDL2_ENABLED:BOOL=ON
@@ -922,55 +974,46 @@ THIRDPARTY_SDL2_ENABLED:BOOL=ON
 THIRDPARTY_SDL2_INCLUDE_URL:STRING=https://www.dropbox.com/s/ninle2iwebrcpdq/libsdl_include.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_SDL2_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/vdih3cithe90o0i/libsdl2_linux_Release.tar.gz?dl=0
+THIRDPARTY_SDL2_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/ve4ntf7byct4hdr/libsdl2_raspberry_Release.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_SDL2_RELEASE_URL:STRING=https://www.dropbox.com/s/vdih3cithe90o0i/libsdl2_linux_Release.tar.gz?dl=0
+THIRDPARTY_SDL2_RELEASE_URL:STRING=https://www.dropbox.com/s/ve4ntf7byct4hdr/libsdl2_raspberry_Release.tar.gz?dl=0
 
 //The URL for Release Bullet3
-THIRDPARTY_SDL2_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/n0c4gjxb94kcvg5/libsdl2_linux_Debug.tar.gz?dl=0
+THIRDPARTY_SDL2_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/2snm9jmrl14242z/libsdl2_raspberry_Debug.tar.gz?dl=0
 
 //The URL for include Bullet3
 THIRDPARTY_STBIMAGES_INCLUDE_URL:STRING=https://www.dropbox.com/s/u9c4ruts1wac41k/stb_image_includes.tar.gz?dl=0
 
-//The URL for Debug Bullet3
-THIRDPARTY_VORBIS_DEBUG_URL:STRING=https://www.dropbox.com/s/9ph5xwk7ckrpnj6/libvorbis_linux_Debug.tar.gz?dl=0
+//Download Vorbis library
+THIRDPARTY_VORBIS_DOWNLOAD:BOOL=OFF
 
-//The URL for include Bullet3
-THIRDPARTY_VORBIS_INCLUDE_URL:STRING=https://www.dropbox.com/s/erbp79zazwqsknv/libvorbis_includes.tar.gz?dl=0
-
-//The URL for Release Bullet3
-THIRDPARTY_VORBIS_MINSIZEREL_URL:STRING=https://www.dropbox.com/s/ean2y0u1zclih04/libvorbis_linux_Release.tar.gz?dl=0
-
-//The URL for Release Bullet3
-THIRDPARTY_VORBIS_RELEASE_URL:STRING=https://www.dropbox.com/s/ean2y0u1zclih04/libvorbis_linux_Release.tar.gz?dl=0
-
-//The URL for Release Bullet3
-THIRDPARTY_VORBIS_RELWITHDEBINFO_URL:STRING=https://www.dropbox.com/s/9ph5xwk7ckrpnj6/libvorbis_linux_Debug.tar.gz?dl=0
-
-//fmod include
+//bullet3 typedef
 USE_BULLET3_LIBRARY:BOOL=ON
 
-//fmod include
+//debugdraw typedef
 USE_DEBUGDRAW_LIBRARY:BOOL=ON
 
-//fmod include
+//glm typedef
 USE_GLM_LIBRARY:BOOL=ON
 
-//fmod include
+//imguizmo typedef
 USE_IMGUIZMO_LIBRARY:BOOL=ON
 
-//fmod include
+//imgui typedef
 USE_IMGUI_LIBRARY:BOOL=ON
 
-//fmod include
+//jsoncpp typedef
 USE_JSONCPP_LIBRARY:BOOL=OFF
 
-//fmod include
+//nanovg typedef
 USE_NANOVG_LIBRARY:BOOL=OFF
 
 //ogg include
 USE_OGG_LIBRARY:BOOL=ON
+
+//opencv typedef
+USE_OPENCV_LIBRARY:BOOL=OFF
 
 //vorbis include
 USE_VORBIS_LIBRARY:BOOL=ON
@@ -1036,7 +1079,7 @@ VIDEO_X11_XSHAPE:BOOL=ON
 VIDEO_X11_XVM:BOOL=ON
 
 //Path to a file.
-VORBIS_INCLUDE_DIR:PATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/include/vorbis
+VORBIS_INCLUDE_DIR:PATH=/usr/include
 
 //Dynamically load Wayland support
 WAYLAND_SHARED:BOOL=ON
@@ -1095,13 +1138,13 @@ __OPENAL__:BOOL=ON
 //SDL2 sound include
 __SDL__:BOOL=OFF
 
-//The URL for the include files for thirdparty/bullet3/lib/linux/include
+//The URL for the include files for thirdparty/bullet3/lib/raspberrypi/include
 bullet3_URL_INCLUDE:STRING=https://www.dropbox.com/s/f2zfpkdx2agtk00/libbullet3_includes.tar.gz?dl=0
 
-//The URL for the include files for thirdparty/debug-draw/lib/linux/include
+//The URL for the include files for thirdparty/debug-draw/lib/raspberrypi/include
 debug-draw_URL_INCLUDE:STRING=https://www.dropbox.com/s/c405ev7l3d0ruvb/libdebug-draw_includes.tar.gz?dl=0
 
-//The URL for the include files for thirdparty/glm/lib/linux/include
+//The URL for the include files for thirdparty/glm/lib/raspberrypi/include
 glm_URL_INCLUDE:STRING=https://www.dropbox.com/s/fferowgwlio96m5/libglm_includes.tar.gz?dl=0
 
 //Path to a library.
@@ -1116,68 +1159,62 @@ imgui_LIBRARY_RELEASE:FILEPATH=imgui_LIBRARY_RELEASE-NOTFOUND
 //Path to a library.
 imgui_LIBRARY_RELWITHDEBINFO:FILEPATH=imgui_LIBRARY_RELWITHDEBINFO-NOTFOUND
 
-//The URL for the include files for thirdparty/imgui/lib/linux/include
+//The URL for the include files for thirdparty/imgui/lib/raspberrypi/include
 imgui_URL_INCLUDE:STRING=https://www.dropbox.com/s/xhauwvyy48g5dd7/libimgui_includes.tar.gz?dl=0
 
 //Path to a library.
-ogg_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ogg/lib/linux/Debug/libogg.so
+ogg_LIBRARY_DEBUG:FILEPATH=/usr/lib/arm-linux-gnueabihf/libogg.so
 
 //Path to a library.
-ogg_LIBRARY_MINSIZEREL:FILEPATH=ogg_LIBRARY_MINSIZEREL-NOTFOUND
+ogg_LIBRARY_MINSIZEREL:FILEPATH=/usr/lib/arm-linux-gnueabihf/libogg.so
 
 //Path to a library.
-ogg_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ogg/lib/linux/Release/libogg.so
+ogg_LIBRARY_RELEASE:FILEPATH=/usr/lib/arm-linux-gnueabihf/libogg.so
 
 //Path to a library.
-ogg_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ogg/lib/linux/RelWithDebInfo/libogg.so
+ogg_LIBRARY_RELWITHDEBINFO:FILEPATH=/usr/lib/arm-linux-gnueabihf/libogg.so
 
-//The URL for the include files for thirdparty/ogg/lib/linux/include
-ogg_URL_INCLUDE:STRING=https://www.dropbox.com/s/agc7zmqg9m64x9i/libogg_includes.tar.gz?dl=0
-
-//The URL for the include files for thirdparty/sdl2/lib/linux/include
+//The URL for the include files for thirdparty/sdl2/lib/raspberrypi/include
 sdl2_URL_INCLUDE:STRING=https://www.dropbox.com/s/ninle2iwebrcpdq/libsdl_include.tar.gz?dl=0
 
-//The URL for the include files for thirdparty/stbimages/lib/linux/include
+//The URL for the include files for thirdparty/stbimages/lib/raspberrypi/include
 stbimages_URL_INCLUDE:STRING=https://www.dropbox.com/s/u9c4ruts1wac41k/stb_image_includes.tar.gz?dl=0
 
 //Path to a library.
-vorbis_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Debug/libvorbis.so
+vorbis_LIBRARY_DEBUG:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbis.so
 
 //Path to a library.
-vorbis_LIBRARY_MINSIZEREL:FILEPATH=vorbis_LIBRARY_MINSIZEREL-NOTFOUND
+vorbis_LIBRARY_MINSIZEREL:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbis.so
 
 //Path to a library.
-vorbis_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Release/libvorbis.so
+vorbis_LIBRARY_RELEASE:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbis.so
 
 //Path to a library.
-vorbis_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/RelWithDebInfo/libvorbis.so
-
-//The URL for the include files for thirdparty/vorbis/lib/linux/include
-vorbis_URL_INCLUDE:STRING=https://www.dropbox.com/s/erbp79zazwqsknv/libvorbis_includes.tar.gz?dl=0
+vorbis_LIBRARY_RELWITHDEBINFO:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbis.so
 
 //Path to a library.
-vorbisenc_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Debug/libvorbisenc.so
+vorbisenc_LIBRARY_DEBUG:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbisenc.so
 
 //Path to a library.
-vorbisenc_LIBRARY_MINSIZEREL:FILEPATH=vorbisenc_LIBRARY_MINSIZEREL-NOTFOUND
+vorbisenc_LIBRARY_MINSIZEREL:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbisenc.so
 
 //Path to a library.
-vorbisenc_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Release/libvorbisenc.so
+vorbisenc_LIBRARY_RELEASE:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbisenc.so
 
 //Path to a library.
-vorbisenc_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/RelWithDebInfo/libvorbisenc.so
+vorbisenc_LIBRARY_RELWITHDEBINFO:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbisenc.so
 
 //Path to a library.
-vorbisfile_LIBRARY_DEBUG:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Debug/libvorbisfile.so
+vorbisfile_LIBRARY_DEBUG:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbisfile.so
 
 //Path to a library.
-vorbisfile_LIBRARY_MINSIZEREL:FILEPATH=vorbisfile_LIBRARY_MINSIZEREL-NOTFOUND
+vorbisfile_LIBRARY_MINSIZEREL:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbisfile.so
 
 //Path to a library.
-vorbisfile_LIBRARY_RELEASE:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Release/libvorbisfile.so
+vorbisfile_LIBRARY_RELEASE:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbisfile.so
 
 //Path to a library.
-vorbisfile_LIBRARY_RELWITHDEBINFO:FILEPATH=/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/RelWithDebInfo/libvorbisfile.so
+vorbisfile_LIBRARY_RELWITHDEBINFO:FILEPATH=/usr/lib/arm-linux-gnueabihf/libvorbisfile.so
 
 
 ########################
@@ -1506,47 +1543,47 @@ EGL_egl_LIBDIR:INTERNAL=
 EGL_egl_PREFIX:INTERNAL=
 EGL_egl_VERSION:INTERNAL=
 //Details about finding Bullet2FileLoader
-FIND_PACKAGE_MESSAGE_DETAILS_Bullet2FileLoader:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet2FileLoader.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet2FileLoader.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Bullet2FileLoader:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet2FileLoader.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet2FileLoader.a][v()]
 //Details about finding Bullet3Collision
-FIND_PACKAGE_MESSAGE_DETAILS_Bullet3Collision:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3Collision.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3Collision.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Bullet3Collision:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3Collision.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Collision.a][v()]
 //Details about finding Bullet3Common
-FIND_PACKAGE_MESSAGE_DETAILS_Bullet3Common:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3Common.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3Common.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Bullet3Common:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3Common.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Common.a][v()]
 //Details about finding Bullet3Dynamics
-FIND_PACKAGE_MESSAGE_DETAILS_Bullet3Dynamics:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3Dynamics.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3Dynamics.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Bullet3Dynamics:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3Dynamics.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Dynamics.a][v()]
 //Details about finding Bullet3Geometry
-FIND_PACKAGE_MESSAGE_DETAILS_Bullet3Geometry:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3Geometry.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3Geometry.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Bullet3Geometry:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3Geometry.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3Geometry.a][v()]
 //Details about finding Bullet3OpenCL_clew
-FIND_PACKAGE_MESSAGE_DETAILS_Bullet3OpenCL_clew:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBullet3OpenCL_clew.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBullet3OpenCL_clew.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Bullet3OpenCL_clew:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBullet3OpenCL_clew.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBullet3OpenCL_clew.a][v()]
 //Details about finding BulletCollision
-FIND_PACKAGE_MESSAGE_DETAILS_BulletCollision:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletCollision.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletCollision.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BulletCollision:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletCollision.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletCollision.a][v()]
 //Details about finding BulletDynamics
-FIND_PACKAGE_MESSAGE_DETAILS_BulletDynamics:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletDynamics.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletDynamics.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BulletDynamics:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletDynamics.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletDynamics.a][v()]
 //Details about finding BulletFileLoader
-FIND_PACKAGE_MESSAGE_DETAILS_BulletFileLoader:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletFileLoader.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletFileLoader.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BulletFileLoader:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletFileLoader.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletFileLoader.a][v()]
 //Details about finding BulletInverseDynamics
-FIND_PACKAGE_MESSAGE_DETAILS_BulletInverseDynamics:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletInverseDynamics.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamics.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BulletInverseDynamics:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletInverseDynamics.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletInverseDynamics.a][v()]
 //Details about finding BulletInverseDynamicsUtils
-FIND_PACKAGE_MESSAGE_DETAILS_BulletInverseDynamicsUtils:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletInverseDynamicsUtils.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletInverseDynamicsUtils.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BulletInverseDynamicsUtils:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletInverseDynamicsUtils.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletInverseDynamicsUtils.a][v()]
 //Details about finding BulletSoftBody
-FIND_PACKAGE_MESSAGE_DETAILS_BulletSoftBody:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletSoftBody.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletSoftBody.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BulletSoftBody:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletSoftBody.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletSoftBody.a][v()]
 //Details about finding BulletWorldImporter
-FIND_PACKAGE_MESSAGE_DETAILS_BulletWorldImporter:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletWorldImporter.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletWorldImporter.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BulletWorldImporter:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletWorldImporter.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletWorldImporter.a][v()]
 //Details about finding BulletXmlWorldImporter
-FIND_PACKAGE_MESSAGE_DETAILS_BulletXmlWorldImporter:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libBulletXmlWorldImporter.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libBulletXmlWorldImporter.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BulletXmlWorldImporter:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libBulletXmlWorldImporter.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libBulletXmlWorldImporter.a][v()]
 //Details about finding ConvexDecomposition
-FIND_PACKAGE_MESSAGE_DETAILS_ConvexDecomposition:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libConvexDecomposition.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libConvexDecomposition.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_ConvexDecomposition:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libConvexDecomposition.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libConvexDecomposition.a][v()]
 //Details about finding Doxygen
 FIND_PACKAGE_MESSAGE_DETAILS_Doxygen:INTERNAL=[/usr/bin/doxygen][cfound components:  doxygen missing components:  dot][v1.8.13()]
 //Details about finding GIMPACTUtils
-FIND_PACKAGE_MESSAGE_DETAILS_GIMPACTUtils:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libGIMPACTUtils.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libGIMPACTUtils.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_GIMPACTUtils:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libGIMPACTUtils.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libGIMPACTUtils.a][v()]
 //Details about finding GLEW
 FIND_PACKAGE_MESSAGE_DETAILS_GLEW:INTERNAL=[/usr/lib/arm-linux-gnueabihf/libGLEW.so][/usr/include][v()]
 //Details about finding HACD
-FIND_PACKAGE_MESSAGE_DETAILS_HACD:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libHACD.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libHACD.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_HACD:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libHACD.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libHACD.a][v()]
 //Details about finding ImGuizmo
-FIND_PACKAGE_MESSAGE_DETAILS_ImGuizmo:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/linux/include/ImGuizmo][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/linux/Release/libImGuizmo.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/linux/Debug/libImGuizmo.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_ImGuizmo:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/raspberrypi/include/ImGuizmo][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/raspberrypi/Release/libImGuizmo.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ImGuizmo/lib/raspberrypi/Debug/libImGuizmo.a][v()]
 //Details about finding LinearMath
-FIND_PACKAGE_MESSAGE_DETAILS_LinearMath:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Release/libLinearMath.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/linux/Debug/libLinearMath.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_LinearMath:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/include/bullet3][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Release/libLinearMath.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/bullet3/lib/raspberrypi/Debug/libLinearMath.a][v()]
 //Details about finding OpenAL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenAL:INTERNAL=[/usr/lib/arm-linux-gnueabihf/libopenal.so][/usr/include/AL][v()]
 //Details about finding OpenGL
@@ -1554,17 +1591,17 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/arm-linux-gnueabihf/libGL
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29()]
 //Details about finding SDL2
-FIND_PACKAGE_MESSAGE_DETAILS_SDL2:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/linux/include][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/linux/Release/libSDL2.a;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/linux/Debug/libSDL2.a][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_SDL2:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/raspberrypi/include][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/raspberrypi/Release/libSDL2.so;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/sdl2/lib/raspberrypi/Debug/libSDL2.so][v()]
 //Details about finding SWIG
 FIND_PACKAGE_MESSAGE_DETAILS_SWIG:INTERNAL=[/usr/bin/swig3.0][/usr/share/swig3.0][v3.0.10()]
 //Details about finding ogg
-FIND_PACKAGE_MESSAGE_DETAILS_ogg:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ogg/lib/linux/include/ogg][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ogg/lib/linux/Release/libogg.so;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/ogg/lib/linux/Debug/libogg.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_ogg:INTERNAL=[/usr/include][/usr/lib/arm-linux-gnueabihf/libogg.so][v()]
 //Details about finding vorbis
-FIND_PACKAGE_MESSAGE_DETAILS_vorbis:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/include/vorbis][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Release/libvorbis.so;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Debug/libvorbis.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_vorbis:INTERNAL=[/usr/include][/usr/lib/arm-linux-gnueabihf/libvorbis.so][v()]
 //Details about finding vorbisenc
-FIND_PACKAGE_MESSAGE_DETAILS_vorbisenc:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/include/vorbis][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Release/libvorbisenc.so;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Debug/libvorbisenc.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_vorbisenc:INTERNAL=[/usr/include][/usr/lib/arm-linux-gnueabihf/libvorbisenc.so][v()]
 //Details about finding vorbisfile
-FIND_PACKAGE_MESSAGE_DETAILS_vorbisfile:INTERNAL=[/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/include/vorbis][optimized;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Release/libvorbisfile.so;debug;/home/pirate/test_project_repo/buildbot_raspberry/thirdparty/vorbis/lib/linux/Debug/libvorbisfile.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_vorbisfile:INTERNAL=[/usr/include][/usr/lib/arm-linux-gnueabihf/libvorbisfile.so][v()]
 //ADVANCED property for variable: GIMPACTUtils_LIBRARY_DEBUG
 GIMPACTUtils_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GIMPACTUtils_LIBRARY_RELEASE
@@ -2218,7 +2255,7 @@ XKB_xkbcommon_LIBDIR:INTERNAL=
 XKB_xkbcommon_PREFIX:INTERNAL=
 XKB_xkbcommon_VERSION:INTERNAL=
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/pirate/test_project_repo/buildbot_raspberry/install/Debug
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/pirate/test_project_repo/buildbot_raspberry/install/MinSizeRel
 __pkg_config_arguments_EGL:INTERNAL=egl
 __pkg_config_arguments_PKG_PULSEAUDIO:INTERNAL=libpulse-simple
 __pkg_config_arguments_XKB:INTERNAL=xkbcommon
